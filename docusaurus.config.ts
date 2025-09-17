@@ -31,7 +31,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/Syslogine/syslogine/tree/main/',
+          editUrl: 'https://github.com/yarpii/syslogine/tree/main/',
           tagsBasePath: 'tags',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -70,7 +70,7 @@ const config: Config = {
         },
         {to: '/tags', label: 'Tags', position: 'left'},
         {
-          href: 'https://github.com/Syslogine/syslogine',
+          href: 'https://github.com/yarpii/syslogine',
           label: 'GitHub',
           position: 'right',
         },
@@ -105,11 +105,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub Discussions',
-              href: 'https://github.com/Syslogine/syslogine/discussions',
+              href: 'https://github.com/yarpii/syslogine/discussions',
             },
             {
               label: 'Issues & Support',
-              href: 'https://github.com/Syslogine/syslogine/issues',
+              href: 'https://github.com/yarpii/syslogine/issues',
             },
           ],
         },
@@ -122,7 +122,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Syslogine',
+              href: 'https://github.com/yarpii',
             },
           ],
         },
