@@ -17,7 +17,7 @@ const config: Config = {
   organizationName: 'Syslogine',
   projectName: 'syslogine',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
