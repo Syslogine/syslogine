@@ -1,0 +1,8 @@
+{
+  "label": "Security & Compliance",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "os/windows/desktop/enterprise/security/index"
+  }
+}

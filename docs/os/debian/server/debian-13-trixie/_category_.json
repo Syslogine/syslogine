@@ -1,0 +1,8 @@
+{
+  "label": "Debian 13 Trixie (Stable)",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "os/debian/server/debian-13-trixie/index"
+  }
+}

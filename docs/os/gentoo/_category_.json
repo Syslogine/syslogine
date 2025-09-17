@@ -1,0 +1,8 @@
+{
+  "label": "Gentoo Linux",
+  "position": 8,
+  "link": {
+    "type": "doc",
+    "id": "os/gentoo/index"
+  }
+}

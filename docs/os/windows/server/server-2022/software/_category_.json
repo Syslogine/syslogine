@@ -1,0 +1,8 @@
+{
+  "label": "Server Software",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Server software installation and configuration for Windows Server 2022"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Application Management",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "os/windows/desktop/enterprise/applications/index"
+  }
+}

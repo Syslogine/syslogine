@@ -1,0 +1,8 @@
+{
+  "label": "Fedora Linux",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "os/fedora/index"
+  }
+}

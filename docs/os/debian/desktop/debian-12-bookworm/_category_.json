@@ -1,0 +1,8 @@
+{
+  "label": "Debian 12 Bookworm (LTS)",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "os/debian/desktop/debian-12-bookworm/index"
+  }
+}
