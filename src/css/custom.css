@@ -77,15 +77,8 @@
   padding-right: 0;
   color: white;
 }
-.navbar__toggle {
-    color: white;
-}
-.menu__link--active {
-    color: black;
-}
-[data-theme='dark'] .menu__link--active {
-  color: white;
-}
+.navbar__toggle{color:white}
+.menu__link--active{color:black}
 .navbar-sidebar__brand {
     align-items: center;
     box-shadow: var(--ifm-navbar-shadow);
@@ -96,6 +89,7 @@
     background-color: #3d4f61;
 }
 @media (max-width: 996px) {
+  .navbar__toggle{order:1}
   .navbar-sidebar {
     background: white;
     height: 100vh;
@@ -113,15 +107,8 @@
   [data-theme='dark'] .navbar-sidebar {
     background: var(--ifm-background-color);
   }
-  .navbar:not(.navbar-sidebar) .navbar__logo {
-    display: none;
-  }
-  .navbar-sidebar__brand .navbar__logo {
-    display: block !important;
-  }
-  .navbar {
-    z-index: 200;
-  }
+  .navbar-sidebar__brand .navbar__logo{display:block !important}
+  .navbar{z-index:200}
 }
 
 /* =================================================================== */
@@ -285,6 +272,35 @@
   margin: 0.5rem;
 }
 
+@media (max-width: 996px) {
+  .buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .buttons .button {
+    width: 100%;
+    margin: 0.25rem 0;
+    text-align: center;
+  }
+  
+  .button {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+  
+  .buttons .button {
+    margin: 0.2rem 0;
+  }
+}
+
 /* =================================================================== */
 /* CODE BLOCKS & COPY FUNCTIONALITY */
 /* =================================================================== */
@@ -434,12 +450,12 @@ tr:hover {
 /* =================================================================== */
 
 .footer {
-  background: var(--ifm-color-primary-darkest);
+  background: #293642;
   border-top: 1px solid var(--ifm-color-emphasis-200);
 }
 
 .footer__title {
-  color: var(--ifm-color-primary-lightest);
+  color: #ddd;
   font-weight: 600;
 }
 
@@ -517,9 +533,7 @@ blockquote {
   margin: 1.5rem 0;
 }
 
-blockquote p {
-  margin-bottom: 0;
-}
+blockquote p{margin-bottom:0}
 
 /* Links */
 a{transition:color 0.2s ease}
@@ -689,6 +703,7 @@ a:hover{text-decoration:none}
 /* =================================================================== */
 /* EXTRA */
 /* =================================================================== */
+[data-theme='dark'] .button.button--secondary{color:#212121}
 [data-theme='dark'] .button.button--secondary.button--lg{color:#212121}
 [data-theme='dark'] .button.button--outline.button--secondary.button--lg{color:#ddd}
 [data-theme='dark'] .button.button--primary.button--block{color:#ddd}
@@ -698,10 +713,11 @@ a:hover{text-decoration:none}
 [data-theme='dark'] h3{color:#ddd}
 [data-theme='dark'] a{color:#ddd} 
 [data-theme='dark'] .tag{color:#ddd}
-[data-theme='dark'] .footer__title{color:#ddd}
-
-
 [data-theme='dark'] .pagination-nav__label{color:#ddd}
 [data-theme='dark'] [class*="tag_"] a,[data-theme='dark'] a[class*="tag_"] {color:#ddd}
 [data-theme='dark'] [class*="toggleButton_"] a,[data-theme='dark'] a[class*="toggleButton_"] {color:#ddd}
 [class*="toggleIcon"] {color:#ddd; fill:#ddd}
+[data-theme='dark'] .breadcrumbs__link{color:#ddd}
+[data-theme='dark'] .breadcrumbs__link:hover{color:#ddd}
+[data-theme='dark'] .breadcrumbs__item--active.breadcrumbs__link{color:#ddd}
+[data-theme='dark'] .menu__link--active{color:#ddd}
