@@ -38,11 +38,9 @@ import TabItem from '@theme/TabItem';
   <h2 style={{color: 'white', marginBottom: '1rem'}}>
     Your Complete Resource for Professional System Administration
   </h2>
-  <p style={{fontSize: '1.1rem', marginBottom: '1.5rem', opacity: '0.95'}}>
-    Whether you're a beginner learning the fundamentals or an experienced sysadmin seeking advanced techniques, 
-    our step-by-step guides will help you master modern infrastructure management.
-  </p>
-  <div className="buttons">
+  Whether you're a beginner learning the fundamentals or an experienced sysadmin seeking advanced techniques, 
+  our step-by-step guides will help you master modern infrastructure management.
+  <div className="buttons" style={{marginTop: '1.5rem'}}>
     <a href="#quick-start" className="button button--secondary button--outline" style={{borderColor: 'white', color: 'white'}}>
       Quick Start Guide
     </a>

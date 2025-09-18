@@ -58,6 +58,9 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  scripts: [
+    '/js/custom.js'
+  ],
 
   themeConfig: {
     image: 'img/syslogine-social-card.jpg',
