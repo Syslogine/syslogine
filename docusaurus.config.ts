@@ -25,6 +25,18 @@ const config: Config = {
     locales: ['en'],
   },
 
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -69,6 +81,10 @@ const config: Config = {
           label: 'Guides',
         },
         {to: '/tags', label: 'Tags', position: 'left'},
+        {
+          type: 'search',
+          position: 'right',
+        },
         {
           href: 'https://github.com/yarpii/syslogine',
           label: 'GitHub',
