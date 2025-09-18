@@ -12,9 +12,9 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <Head>
+    
         <meta name="google-adsense-account" content="ca-pub-8675646092369975" />
-      </Head>
+     
       <div className="container">
         <Heading as="h1" className="hero__title">
           Master System Administration
