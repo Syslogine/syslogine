@@ -38,7 +38,6 @@
 /* =================================================================== */
 /* NAVIGATION & HEADER */
 /* =================================================================== */
-
 .navbar {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8px);
@@ -81,7 +80,14 @@
   [data-theme='dark'] .navbar-sidebar .menu__link {
     color: var(--ifm-color-content);
   }
+  [data-theme='dark'] .navbar-sidebar {
+    background: var(--ifm-background-color);
+  }
+  .navbar {
+    z-index: 200;
+  }
 }
+
 
 /* =================================================================== */
 /* HERO SECTION */
