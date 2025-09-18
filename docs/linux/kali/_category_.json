@@ -1,0 +1,8 @@
+{
+  "label": "Kali Linux",
+  "position": 9,
+  "link": {
+    "type": "doc",
+    "id": "linux/kali/index"
+  }
+}

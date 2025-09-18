@@ -1,0 +1,8 @@
+{
+  "label": "Device Management",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "windows/desktop/enterprise/device-management/index"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Enterprise Management",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "windows/desktop/enterprise/index"
+  }
+}

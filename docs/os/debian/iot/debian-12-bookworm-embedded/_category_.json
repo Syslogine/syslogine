@@ -1,8 +1,0 @@
-{
-  "label": "Debian 12 Bookworm Embedded",
-  "position": 2,
-  "link": {
-    "type": "doc",
-    "id": "os/debian/iot/debian-12-bookworm-embedded/index"
-  }
-}

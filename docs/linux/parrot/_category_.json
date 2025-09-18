@@ -1,0 +1,8 @@
+{
+  "label": "Parrot Security OS",
+  "position": 13,
+  "link": {
+    "type": "doc",
+    "id": "linux/parrot/index"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Ubuntu Server",
+  "position": 20,
+  "link": {
+    "type": "doc",
+    "id": "linux/ubuntu/index"
+  }
+}

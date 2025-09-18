@@ -1,0 +1,8 @@
+{
+  "label": "Gaming & Modding",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "gaming/index"
+  }
+}

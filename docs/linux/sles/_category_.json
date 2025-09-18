@@ -1,0 +1,8 @@
+{
+  "label": "SUSE Enterprise Linux",
+  "position": 18,
+  "link": {
+    "type": "doc",
+    "id": "linux/sles/index"
+  }
+}

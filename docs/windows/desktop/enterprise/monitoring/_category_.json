@@ -1,0 +1,8 @@
+{
+  "label": "Monitoring & Analytics",
+  "position": 6,
+  "link": {
+    "type": "doc",
+    "id": "windows/desktop/enterprise/monitoring/index"
+  }
+}

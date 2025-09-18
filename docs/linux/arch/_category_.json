@@ -1,0 +1,8 @@
+{
+  "label": "Arch Linux",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "linux/arch/index"
+  }
+}

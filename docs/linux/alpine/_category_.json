@@ -1,0 +1,8 @@
+{
+  "label": "Alpine Linux",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/index"
+  }
+}

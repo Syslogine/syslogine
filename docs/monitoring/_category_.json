@@ -1,0 +1,8 @@
+{
+  "label": "Monitoring & Automation",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "monitoring/index"
+  }
+}

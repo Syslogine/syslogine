@@ -1,0 +1,8 @@
+{
+  "label": "Clear Linux",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "linux/clearlinux/index"
+  }
+}

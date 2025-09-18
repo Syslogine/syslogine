@@ -22,69 +22,229 @@ tags:
 slug: welcome
 ---
 
-# Welcome to Syslogine
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Welcome to Syslogine - your complete resource for professional system administration! Whether you're a beginner looking to learn the fundamentals or an experienced sysadmin seeking advanced techniques, our step-by-step guides are designed to help you master modern infrastructure management.
+# 🚀 Welcome to Syslogine
 
-Join our community of system administrators, share your experiences, and together let's navigate the evolving landscape of enterprise IT. Your journey to becoming a skilled system administrator starts here.
+<div style={{
+  background: 'linear-gradient(135deg, var(--ifm-color-primary-lightest) 0%, var(--ifm-color-primary-lighter) 100%)',
+  borderRadius: '12px',
+  padding: '2rem',
+  marginBottom: '2rem',
+  color: 'white',
+  textAlign: 'center'
+}}>
+  <h2 style={{color: 'white', marginBottom: '1rem'}}>
+    Your Complete Resource for Professional System Administration
+  </h2>
+  <p style={{fontSize: '1.1rem', marginBottom: '1.5rem', opacity: '0.95'}}>
+    Whether you're a beginner learning the fundamentals or an experienced sysadmin seeking advanced techniques, 
+    our step-by-step guides will help you master modern infrastructure management.
+  </p>
+  <div className="buttons">
+    <a href="#quick-start" className="button button--secondary button--outline" style={{borderColor: 'white', color: 'white'}}>
+      Quick Start Guide
+    </a>
+    <a href="#what-youll-find" className="button button--secondary button--outline" style={{borderColor: 'white', color: 'white'}}>
+      Explore Topics
+    </a>
+  </div>
+</div>
 
-Ready to dive in? Explore our tutorials and begin your path to infrastructure mastery!
+## 🎯 Our Approach
 
-## What You'll Find Here
+<div className="row">
+  <div className="col col--6">
+    <div className="card">
+      <div className="card__body">
+        <h4>🏢 Production-Ready</h4>
+        <p>Based on enterprise best practices and industry standards used in real production environments.</p>
+      </div>
+    </div>
+  </div>
+  <div className="col col--6">
+    <div className="card">
+      <div className="card__body">
+        <h4>📋 Step-by-Step</h4>
+        <p>Clear instructions with command examples, screenshots, and detailed explanations.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-Our documentation covers essential system administration topics to help you build, manage, and secure modern IT infrastructure:
+<div className="row">
+  <div className="col col--6">
+    <div className="card">
+      <div className="card__body">
+        <h4>🔄 Always Current</h4>
+        <p>Regularly updated to reflect the latest technologies, security patches, and best practices.</p>
+      </div>
+    </div>
+  </div>
+  <div className="col col--6">
+    <div className="card">
+      <div className="card__body">
+        <h4>✅ Thoroughly Tested</h4>
+        <p>All procedures are tested in lab environments by experienced system administrators.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-### **Linux Administration**
-Master Linux server management from basic commands to advanced configuration. Learn Ubuntu Server, CentOS, Debian, and other enterprise distributions.
+---
 
-### **Windows Server Management** 
-Complete guides for Windows Server administration, Active Directory, Group Policy, and enterprise Windows environments.
+## 📚 What You'll Find Here {#what-youll-find}
 
-### **Virtualization & Containers**
-Explore VMware, Hyper-V, Docker, and Kubernetes for modern infrastructure deployment and container orchestration.
+<Tabs>
+<TabItem value="infrastructure" label="🏗️ Infrastructure" default>
 
-### **Network Administration**
-Build and maintain robust network infrastructure with guides on routing, switching, firewalls, and network security.
+**Build and manage enterprise-grade infrastructure**
 
-### **Security & Hardening**
-Implement security best practices, system hardening, monitoring, and compliance for enterprise environments.
+<ul>
+<li><strong>Linux Administration</strong>: Ubuntu Server, CentOS, RHEL, Debian</li>
+<li><strong>Windows Server</strong>: Active Directory, Group Policy, PowerShell</li>
+<li><strong>Virtualization</strong>: VMware vSphere, Hyper-V, KVM</li>
+<li><strong>Network Administration</strong>: Routing, switching, firewalls, VLANs</li>
+</ul>
 
-### **Cloud & DevOps**
-Learn cloud platforms (AWS, Azure, GCP), infrastructure as code, CI/CD pipelines, and modern deployment strategies.
+</TabItem>
 
-### **Monitoring & Automation**
-Set up advanced monitoring solutions and automate routine tasks to improve efficiency and reliability.
+<TabItem value="cloud" label="☁️ Cloud & DevOps">
 
-### **Backup & Disaster Recovery**
-Implement robust backup strategies and disaster recovery plans to protect critical business data and systems.
+**Modern cloud platforms and automation**
 
-## Our Approach
+<ul>
+<li><strong>Cloud Platforms</strong>: AWS, Azure, Google Cloud Platform</li>
+<li><strong>Containers</strong>: Docker, Kubernetes, container orchestration</li>
+<li><strong>Infrastructure as Code</strong>: Terraform, Ansible, CloudFormation</li>
+<li><strong>CI/CD Pipelines</strong>: Jenkins, GitLab CI, GitHub Actions</li>
+</ul>
 
-At Syslogine, we focus on practical, real-world system administration scenarios. Our tutorials are:
+</TabItem>
 
-- **Production-Ready**: Based on enterprise best practices and industry standards
-- **Step-by-Step**: Clear instructions with command examples and screenshots
-- **Current**: Regularly updated to reflect the latest technologies and practices
-- **Tested**: All procedures are thoroughly tested in lab environments
+<TabItem value="security" label="🛡️ Security & Monitoring">
 
-Our team consists of experienced system administrators and infrastructure engineers who bring years of enterprise experience to every tutorial.
+**Secure and monitor your infrastructure**
 
-## Join the Community
+<ul>
+<li><strong>Security Hardening</strong>: System hardening, compliance frameworks</li>
+<li><strong>Monitoring Solutions</strong>: Prometheus, Grafana, ELK Stack, Zabbix</li>
+<li><strong>Backup & Recovery</strong>: Backup strategies, disaster recovery planning</li>
+<li><strong>Automation</strong>: Script development, task automation, configuration management</li>
+</ul>
 
-System administration is best learned through collaboration and shared experiences. Connect with fellow sysadmins through:
+</TabItem>
+</Tabs>
 
-- **GitHub Discussions**: Ask questions and share solutions
-- **Issue Tracking**: Report problems or suggest improvements
-- **Community Contributions**: Share your own guides and experiences
+---
 
-## Start Your Journey
+## 🚀 Quick Start Guide {#quick-start}
 
-Browse our guides by category or use the search function to find specific topics. Each tutorial includes:
+<div className="row">
+  <div className="col col--4">
+    <div className="card shadow-hover">
+      <div className="card__header text-center">
+        <h3>🐧 New to Linux?</h3>
+      </div>
+      <div className="card__body">
+        <p>Start with our Linux fundamentals and work your way up to advanced server administration.</p>
+        <ul>
+          <li>Basic command line</li>
+          <li>File system navigation</li>
+          <li>User management</li>
+          <li>Service configuration</li>
+        </ul>
+      </div>
+      <div className="card__footer">
+        <a href="/docs/linux/basics" className="button button--primary button--block">
+          Start Linux Journey
+        </a>
+      </div>
+    </div>
+  </div>
 
-- Prerequisites and requirements
-- Detailed step-by-step instructions  
-- Configuration examples
-- Troubleshooting tips
-- Security considerations
+  <div className="col col--4">
+    <div className="card shadow-hover">
+      <div className="card__header text-center">
+        <h3>🪟 Windows Admin?</h3>
+      </div>
+      <div className="card__body">
+        <p>Dive into Windows Server administration and enterprise Windows environments.</p>
+        <ul>
+          <li>Active Directory setup</li>
+          <li>Group Policy management</li>
+          <li>PowerShell automation</li>
+          <li>Hyper-V virtualization</li>
+        </ul>
+      </div>
+      <div className="card__footer">
+        <a href="/docs/windows/getting-started" className="button button--primary button--block">
+          Explore Windows
+        </a>
+      </div>
+    </div>
+  </div>
 
-Your path to mastering system administration starts now. Explore our latest tutorials and build the skills needed for modern IT infrastructure management.
+  <div className="col col--4">
+    <div className="card shadow-hover">
+      <div className="card__header text-center">
+        <h3>☁️ Going Cloud?</h3>
+      </div>
+      <div className="card__body">
+        <p>Learn modern cloud platforms and container technologies for scalable infrastructure.</p>
+        <ul>
+          <li>AWS/Azure fundamentals</li>
+          <li>Docker containers</li>
+          <li>Kubernetes orchestration</li>
+          <li>Infrastructure as Code</li>
+        </ul>
+      </div>
+      <div className="card__footer">
+        <a href="/docs/cloud/introduction" className="button button--primary button--block">
+          Start Cloud Track
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
+## 👥 Join Our Community
+
+System administration is best learned through collaboration and shared experiences:
+
+<div className="row margin-top--lg">
+  <div className="col col--4 text-center">
+    <h4>💬 GitHub Discussions</h4>
+    <p>Ask questions, share solutions, and connect with fellow sysadmins.</p>
+    <a href="https://github.com/yourusername/syslogine/discussions" className="button button--secondary">
+      Join Discussions
+    </a>
+  </div>
+  
+  <div className="col col--4 text-center">
+    <h4>🐛 Issue Tracking</h4>
+    <p>Report problems, suggest improvements, or request new tutorials.</p>
+    <a href="https://github.com/yourusername/syslogine/issues" className="button button--secondary">
+      Report Issues
+    </a>
+  </div>
+  
+  <div className="col col--4 text-center">
+    <h4>✍️ Contribute</h4>
+    <p>Share your expertise by contributing guides and tutorials.</p>
+    <a href="/docs/contributing" className="button button--secondary">
+      Start Contributing
+    </a>
+  </div>
+</div>
+
+---
+
+:::tip Ready to Start?
+Browse our guides by category in the sidebar, or use the search function to find specific topics. Each tutorial includes prerequisites, step-by-step instructions, and troubleshooting tips.
+:::
+
+**Your journey to mastering system administration starts now!** 🎉

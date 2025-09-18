@@ -1,8 +1,0 @@
-{
-  "label": "Debian 11 Bullseye (EOL)",
-  "position": 4,
-  "link": {
-    "type": "doc",
-    "id": "os/debian/desktop/debian-11-bullseye/index"
-  }
-}

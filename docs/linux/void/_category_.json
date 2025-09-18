@@ -1,0 +1,8 @@
+{
+  "label": "Void Linux",
+  "position": 21,
+  "link": {
+    "type": "doc",
+    "id": "linux/void/index"
+  }
+}

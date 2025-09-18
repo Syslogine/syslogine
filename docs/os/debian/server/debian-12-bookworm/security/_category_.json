@@ -1,8 +1,0 @@
-{
-  "label": "Security",
-  "position": 3,
-  "link": {
-    "type": "doc",
-    "id": "os/debian/server/debian-12-bookworm/security/index"
-  }
-}

@@ -1,0 +1,8 @@
+{
+  "label": "NixOS",
+  "position": 11,
+  "link": {
+    "type": "doc",
+    "id": "linux/nixlinux/index"
+  }
+}

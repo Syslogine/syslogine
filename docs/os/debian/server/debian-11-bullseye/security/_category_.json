@@ -1,8 +1,0 @@
-{
-  "label": "Security",
-  "position": 3,
-  "link": {
-    "type": "doc",
-    "id": "os/debian/server/debian-11-bullseye/security/index"
-  }
-}

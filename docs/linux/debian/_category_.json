@@ -1,0 +1,8 @@
+{
+  "label": "Debian",
+  "position": 6,
+  "link": {
+    "type": "doc",
+    "id": "linux/debian/index"
+  }
+}

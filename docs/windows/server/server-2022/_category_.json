@@ -1,0 +1,8 @@
+{
+  "label": "Windows Server 2022",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "windows/server/server-2022/index"
+  }
+}

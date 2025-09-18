@@ -1,0 +1,8 @@
+{
+  "label": "Windows 10",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "windows/desktop/windows-10/index"
+  }
+}
