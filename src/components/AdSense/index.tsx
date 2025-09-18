@@ -19,7 +19,7 @@ const AdSense = ({ slot, style = {} }) => {
     <ins
       className="adsbygoogle"
       style={{ display: 'block', ...style }}
-      data-ad-client="ca-pub-XXXXXXXXXX" // Je AdSense publisher ID
+      data-ad-client="ca-pub-8675646092369975"
       data-ad-slot={slot}
       data-ad-format="auto"
       data-full-width-responsive="true"
