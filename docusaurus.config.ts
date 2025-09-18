@@ -80,7 +80,7 @@ const config: Config = {
           position: 'left',
           label: 'Guides',
         },
-        {to: '/tags', label: 'Tags', position: 'left'},
+        {to: '/docs/tags', label: 'Tags', position: 'left'},
         {
           type: 'search',
           position: 'right',
@@ -112,7 +112,7 @@ const config: Config = {
             },
             {
               label: 'Browse by Tags',
-              to: '/tags',
+              to: '/docs/tags',
             },
           ],
         },
