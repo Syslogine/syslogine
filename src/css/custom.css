@@ -44,58 +44,44 @@
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--ifm-color-emphasis-200);
 }
-
 .navbar__title {
   font-weight: 600;
   font-size: 1.25rem;
   transition: color 0.2s ease;
 }
-
 .navbar__title:hover {
   color: var(--ifm-color-primary-light);
   text-decoration: none;
 }
-
 .navbar__link {
   border-radius: 6px;
   padding: 0.5rem 0.75rem;
   transition: all 0.2s ease;
   font-weight: 500;
 }
-
 .navbar__link:hover {
   background: var(--ifm-color-emphasis-100);
   color: var(--ifm-color-primary);
 }
-
 .navbar__link--active {
   color: var(--ifm-color-primary);
   font-weight: 600;
 }
-
-/* Mobile menu improvements */
 @media (max-width: 996px) {
   .navbar-sidebar {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border-right: 1px solid var(--ifm-color-emphasis-200);
+    background: white;
+    height: calc(200vh - var(--ifm-navbar-height)) !important;
   }
-  
   [data-theme='dark'] .navbar-sidebar {
-    background: rgba(0, 0, 0, 0.95);
+    background: var(--ifm-background-color);
   }
-  
-  .navbar-sidebar__item {
-    padding: 0.25rem 0;
+  .navbar-sidebar .menu__link {
+    color: #333333;
+  }
+  [data-theme='dark'] .navbar-sidebar .menu__link {
+    color: var(--ifm-color-content);
   }
 }
-
-/* =================================================================== */
-/* SIDEBAR */
-/* =================================================================== */
-
-
-
 
 /* =================================================================== */
 /* HERO SECTION */
