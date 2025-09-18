@@ -65,7 +65,7 @@ const config: Config = {
   themeConfig: {
     image: 'img/syslogine-social-card.jpg',
     metadata: [
-      {name: 'keywords', content: 'linux administration, ubuntu server, centos, system administration, linux tutorials'},
+      {name: 'keywords', content: 'linux administration, ubuntu server, RHEL, system administration, linux tutorials'},
       {name: 'description', content: 'Professional system administration guides and tutorials for Linux, Windows Server, and virtualization platforms'},
       {property: 'og:type', content: 'website'},
       {property: 'og:site_name', content: 'Syslogine'},

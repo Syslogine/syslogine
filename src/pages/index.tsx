@@ -54,7 +54,7 @@ function PopularTutorials() {
                 <h3>🐧 Linux Administration</h3>
               </div>
               <div className="card__body">
-                <p>Ubuntu, CentOS, Debian guides for system administrators</p>
+                <p>Ubuntu, RHEL, Debian guides for system administrators</p>
               </div>
               <div className="card__footer">
                 <Link to="/docs/linux" className="button button--primary button--block">

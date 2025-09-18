@@ -2,11 +2,11 @@
 title: "Linux Administration"
 sidebar_label: "Overview"
 sidebar_position: 1
-description: "Master Linux server management from basic commands to advanced configuration. Learn Ubuntu Server, CentOS, Debian, and other enterprise distributions."
+description: "Master Linux server management from basic commands to advanced configuration. Learn Ubuntu Server, Alpine, Debian, and other enterprise distributions."
 keywords:
   - "linux administration"
   - "ubuntu server"
-  - "centos management"
+  - "alpine management"
   - "debian server"
   - "linux system administration"
 tags:
@@ -57,7 +57,7 @@ Whether you're new to Linux or looking to advance your skills, our tutorials cov
   <div className="col col--6">
     <div className="card">
       <div className="card__header">
-        <h3>🔴 CentOS / RHEL</h3>
+        <h3>RHEL</h3>
       </div>
       <div className="card__body">
         <p>Enterprise-focused distributions used in corporate environments worldwide.</p>
@@ -68,8 +68,8 @@ Whether you're new to Linux or looking to advance your skills, our tutorials cov
         </ul>
       </div>
       <div className="card__footer">
-        <a href="/docs/linux/centos" className="button button--primary button--block">
-          CentOS Guides
+        <a href="/docs/linux/rhel" className="button button--primary button--block">
+          RHEL Guides
         </a>
       </div>
     </div>

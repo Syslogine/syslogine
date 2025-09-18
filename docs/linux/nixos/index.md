@@ -123,7 +123,7 @@ nixos-generate-config --root /mnt
         <p>Install NixOS with declarative configuration</p>
       </div>
       <div className="card__footer">
-        <a href="/docs/linux/nixlinux/installation" className="button button--primary">Install Guide</a>
+        <a href="/docs/linux/nixos/installation" className="button button--primary">Install Guide</a>
       </div>
     </div>
   </div>
@@ -137,7 +137,7 @@ nixos-generate-config --root /mnt
         <p>Declarative system configuration management</p>
       </div>
       <div className="card__footer">
-        <a href="/docs/linux/nixlinux/configuration" className="button button--primary">Config Guide</a>
+        <a href="/docs/linux/nixos/configuration" className="button button--primary">Config Guide</a>
       </div>
     </div>
   </div>
@@ -151,7 +151,7 @@ nixos-generate-config --root /mnt
         <p>Nix package manager and expressions</p>
       </div>
       <div className="card__footer">
-        <a href="/docs/linux/nixlinux/packages" className="button button--primary">Package Guide</a>
+        <a href="/docs/linux/nixos/packages" className="button button--primary">Package Guide</a>
       </div>
     </div>
   </div>
@@ -161,7 +161,7 @@ nixos-generate-config --root /mnt
 
 ### Basic Configuration Structure
 ```nix
-# /etc/nixlinux/configuration.nix
+# /etc/nixos/configuration.nix
 { config, pkgs, ... }:
 
 {

@@ -100,7 +100,7 @@ import TabItem from '@theme/TabItem';
 **Build and manage enterprise-grade infrastructure**
 
 <ul>
-<li><strong>Linux Administration</strong>: Ubuntu Server, CentOS, RHEL, Debian</li>
+<li><strong>Linux Administration</strong>: Ubuntu Server, Alpine, RHEL, Debian</li>
 <li><strong>Windows Server</strong>: Active Directory, Group Policy, PowerShell</li>
 <li><strong>Virtualization</strong>: VMware vSphere, Hyper-V, KVM</li>
 <li><strong>Network Administration</strong>: Routing, switching, firewalls, VLANs</li>
@@ -155,7 +155,7 @@ import TabItem from '@theme/TabItem';
         </ul>
       </div>
       <div className="card__footer">
-        <a href="/docs/linux/basics" className="button button--primary button--block">
+        <a href="/docs/linux" className="button button--primary button--block">
           Start Linux Journey
         </a>
       </div>
@@ -177,7 +177,7 @@ import TabItem from '@theme/TabItem';
         </ul>
       </div>
       <div className="card__footer">
-        <a href="/docs/windows/getting-started" className="button button--primary button--block">
+        <a href="/docs/windows" className="button button--primary button--block">
           Explore Windows
         </a>
       </div>
