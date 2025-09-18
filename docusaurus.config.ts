@@ -71,10 +71,9 @@ const config: Config = {
       {property: 'og:site_name', content: 'Syslogine'},
     ],
     navbar: {
-      title: 'Syslogine',
       logo: {
         alt: 'Syslogine Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.webp',
       },
       items: [
         {
