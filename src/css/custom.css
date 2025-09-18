@@ -69,7 +69,8 @@
 @media (max-width: 996px) {
   .navbar-sidebar {
     background: white;
-    height: calc(200vh - var(--ifm-navbar-height)) !important;
+    height: 100vh;
+    overflow-y: auto;
   }
   [data-theme='dark'] .navbar-sidebar {
     background: var(--ifm-background-color);
