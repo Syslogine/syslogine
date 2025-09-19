@@ -1,0 +1,199 @@
+/* src/components/MultiVariantContent.css */
+.multi-variant-container {
+  margin: 2rem 0;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.variant-selectors {
+  background: var(--ifm-color-emphasis-100);
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.selector-group {
+  margin-bottom: 1rem;
+}
+
+.selector-group:last-child {
+  margin-bottom: 0;
+}
+
+.selector-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-content-secondary);
+}
+
+.selector-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.selector-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.selector-btn:hover {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-lightest);
+}
+
+.selector-btn.active {
+  background: var(--ifm-color-primary);
+  color: white;
+  border-color: var(--ifm-color-primary);
+}
+
+/* Specific button styling */
+.os-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.version-btn.active {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+}
+
+.env-btn.active {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  color: #333;
+}
+
+.level-btn.active {
+  background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+}
+
+.current-selection {
+  padding: 1rem 1.5rem;
+  background: var(--ifm-color-emphasis-50);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.selection-path {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.9rem;
+  color: var(--ifm-color-content-secondary);
+}
+
+.variant-content {
+  padding: 1.5rem;
+  min-height: 200px;
+}
+
+.no-content {
+  text-align: center;
+  color: var(--ifm-color-content-secondary);
+  font-style: italic;
+  padding: 2rem;
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .env-btn.active {
+  background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .variant-selectors {
+    padding: 1rem;
+  }
+  
+  .selector-buttons {
+    gap: 0.3rem;
+  }
+  
+  .selector-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Loading spinner */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  color: var(--ifm-color-content-secondary);
+}
+
+.loading-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  border-top: 2px solid var(--ifm-color-primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-right: 0.5rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error message styling */
+.error-message {
+  background: var(--ifm-color-danger-lightest);
+  border: 1px solid var(--ifm-color-danger-light);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  color: var(--ifm-color-danger-dark);
+}
+
+.error-message h3 {
+  margin-top: 0;
+  color: var(--ifm-color-danger);
+}
+
+/* Variant content styling */
+.variant-content {
+  padding: 1.5rem;
+  min-height: 200px;
+}
+
+.variant-h1 {
+  border-bottom: 2px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 0.5rem;
+}
+
+.variant-h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.variant-h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Inline code styling */
+.variant-content :not(pre) > code {
+  background: var(--ifm-color-emphasis-100);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.9em;
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .error-message {
+  background: var(--ifm-color-danger-darkest);
+  border-color: var(--ifm-color-danger-dark);
+  color: var(--ifm-color-danger-lightest);
+}

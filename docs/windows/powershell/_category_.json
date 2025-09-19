@@ -1,0 +1,8 @@
+{
+  "label": "Powershell",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "windows/powershell/index"
+  }
+}

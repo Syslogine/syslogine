@@ -507,9 +507,7 @@ tr:hover {
 /* =================================================================== */
 
 .markdown h1 {
-  border-bottom: 2px solid var(--ifm-color-primary-lighter);
   padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
   color: var(--ifm-color-primary);
 }
 
@@ -721,3 +719,139 @@ a:hover{text-decoration:none}
 [data-theme='dark'] .breadcrumbs__link:hover{color:#ddd}
 [data-theme='dark'] .breadcrumbs__item--active.breadcrumbs__link{color:#ddd}
 [data-theme='dark'] .menu__link--active{color:#ddd}
+
+
+
+/* Display tags container */
+.display-tags-container {
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* Base display tag styling */
+.display-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+  user-select: none;
+}
+
+.display-tag:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* OS tags (almalinux, ubuntu, debian, etc.) */
+.os-tag {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Environment tags (desktop, server, cloud, iot) */
+.environment-tag {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  color: #333;
+}
+
+/* Version tags (v9.5, 2024.1, etc.) */
+.version-tag {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  color: white;
+}
+
+/* Year tags (2024, 2025) */
+.year-tag {
+  background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
+  color: #333;
+}
+
+/* Type tags (administration, installation, security) */
+.type-tag {
+  background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+  color: white;
+}
+
+/* Generic tags (fallback) */
+.generic-tag {
+  background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+  color: white;
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .display-tag {
+  box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+}
+
+[data-theme='dark'] .display-tag:hover {
+  box-shadow: 0 4px 8px rgba(255,255,255,0.15);
+}
+
+[data-theme='dark'] .environment-tag,
+[data-theme='dark'] .year-tag {
+  background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .display-tag {
+    font-size: 0.75em;
+    padding: 0.2rem 0.6rem;
+  }
+  
+  .display-tags-container {
+    gap: 0.4rem;
+  }
+}
+
+/* Animation for new tags */
+.display-tag {
+  animation: fadeInUp 0.3s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Clickable display tag styling */
+.clickable-display-tag {
+  cursor: pointer;
+  user-select: none;
+}
+
+.clickable-display-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.clickable-display-tag:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Focus styling voor toegankelijkheid */
+.clickable-display-tag:focus {
+  outline-offset: 2px;
+}
+
+/* Dark mode focus */
+[data-theme='dark'] .clickable-display-tag:focus {
+  outline-color: var(--ifm-color-primary-light);
+}

@@ -13,7 +13,7 @@ keywords:
   - "iot devices"
   - "smart devices"
   - "embedded systems"
-slug: windows-iot
+slug: /windows/iot
 ---
 
 # Windows IoT
@@ -39,7 +39,7 @@ Windows IoT provides specialized operating system solutions for Internet of Thin
         <p>Lightweight OS for small embedded devices and development</p>
       </div>
       <div className="card__footer">
-        <a href="./windows-10-iot-core/" className="button button--primary">IoT Core</a>
+        <a href="/docs/windows/10/iot/core/" className="button button--primary">IoT Core</a>
       </div>
     </div>
   </div>
@@ -53,7 +53,7 @@ Windows IoT provides specialized operating system solutions for Internet of Thin
         <p>Full-featured Windows for industrial and specialized applications</p>
       </div>
       <div className="card__footer">
-        <a href="./windows-11-iot-enterprise/" className="button button--primary">IoT Enterprise</a>
+        <a href="/docs/windows/ww/iot/enterprise" className="button button--primary">IoT Enterprise</a>
       </div>
     </div>
   </div>

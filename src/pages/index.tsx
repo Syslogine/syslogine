@@ -28,7 +28,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
-            to="/docs/linux/index">
+            to="/docs/linux">
             Browse Operating Systems
           </Link>
         </div>

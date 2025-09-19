@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: "AlmaLinux Administration Guide 2025 | Enterprise RHEL Alternative"
+title: "AlmaLinux Administration Guide 2025"
 sidebar_label: "Index"
 description: "Complete AlmaLinux guide covering installation, DNF management, enterprise features, and migration from CentOS with CloudLinux backing."
 keywords: 
@@ -12,10 +12,23 @@ keywords:
   - "almalinux installation"
   - "dnf package manager"
   - "almalinux migration"
-slug: almalinux-guide
+tags:
+  - almalinux
+  - enterprise-linux
+  - rhel-alternative
+  - centos-replacement
+  - cloudlinux
+  - dnf-package-manager
+  - linux-migration
+  - server-administration
+slug: /docs/linux/almalinux
 ---
 
-# AlmaLinux Administration
+import DisplayTags from '@site/src/components/DisplayTags';
+
+<DisplayTags tags={['almalinux', 'desktop', 'v9.5', '2025']} />
+
+## Intro
 
 AlmaLinux is a 1:1 binary compatible fork of RHEL, developed by CloudLinux Inc. It provides enterprise-grade stability with commercial backing, making it a reliable alternative to CentOS and a production-ready RHEL replacement.
 

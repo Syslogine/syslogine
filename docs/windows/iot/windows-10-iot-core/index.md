@@ -8,7 +8,7 @@ keywords:
  - "iot core"
  - "raspberry pi"
  - "embedded systems"
-slug: windows-10-iot-core-guide
+slug: /windows/10/iot/core
 ---
 
 # Windows 10 IoT Core Guide

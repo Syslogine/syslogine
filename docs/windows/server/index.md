@@ -12,7 +12,7 @@ keywords:
   - "server roles"
   - "active directory"
   - "hyper-v"
-slug: server
+slug: /windows/server
 ---
 
 # Windows Server

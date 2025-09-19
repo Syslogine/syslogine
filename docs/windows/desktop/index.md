@@ -15,7 +15,7 @@ keywords:
   - "windows enterprise"
   - "windows education"
   - "windows pro workstation"
-slug: windows-desktop
+slug: /windows/desktop
 ---
 
 # Windows Desktop

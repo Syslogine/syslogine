@@ -8,7 +8,7 @@ keywords:
  - "iot enterprise"
  - "industrial iot"
  - "embedded os"
-slug: windows-11-iot-enterprise-guide
+slug: /windows/ww/iot/enterprise
 ---
 
 # Windows 11 IoT Enterprise Guide

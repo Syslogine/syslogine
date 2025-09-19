@@ -1,8 +1,8 @@
 {
   "label": "Windows Server 2019",
-  "position": 1,
+  "position": 8,
   "link": {
     "type": "doc",
-    "id": "windows/server/server-2019/index"
+    "id": "windows/server/2019/index"
   }
 }
