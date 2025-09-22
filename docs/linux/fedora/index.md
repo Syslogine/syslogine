@@ -13,7 +13,7 @@ keywords:
   - "podman containers"
   - "selinux fedora"
   - "rpm fusion"
-slug: fedora-guide
+slug: /linux/fedora
 ---
 
 # Fedora Linux Administration

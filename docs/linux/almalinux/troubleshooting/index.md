@@ -13,7 +13,7 @@ tags:
   - almalinux
   - troubleshooting
   - problem-solving
-slug: /docs/linux/almalinux/administration/troubleshooting
+slug: /linux/almalinux/troubleshooting
 hide_table_of_contents: true
 ---
 

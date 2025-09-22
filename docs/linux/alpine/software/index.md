@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - package-management
   - software-installation
-slug: /docs/linux/alpine/administration/software
+slug: /linux/alpine/software
 hide_table_of_contents: true
 ---
 

@@ -12,7 +12,7 @@ keywords:
   - "stateless linux"
   - "cloud native linux"
   - "rolling release"
-slug: clearlinux-guide
+slug: /linux/clearlinux
 ---
 
 # Clear Linux Administration

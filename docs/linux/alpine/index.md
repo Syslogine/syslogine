@@ -11,7 +11,7 @@ keywords:
   - "busybox"
   - "alpine containers"
   - "edge computing"
-slug: alpine-linux-guide
+slug: /linux/alpine
 ---
 
 # Alpine Linux Administration

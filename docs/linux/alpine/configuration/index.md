@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - system-configuration
   - setup-guide
-slug: /docs/linux/alpine/administration/configuration
+slug: /linux/alpine/configuration
 hide_table_of_contents: true
 ---
 

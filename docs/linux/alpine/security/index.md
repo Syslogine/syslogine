@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - security
   - hardening
-slug: /docs/linux/alpine/administration/security
+slug: /linux/alpine/security
 hide_table_of_contents: true
 ---
 

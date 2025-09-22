@@ -1,0 +1,8 @@
+{
+  "label": "Tiny Core",
+  "position": 20,
+  "link": {
+    "type": "doc",
+    "id": "linux/tinycore/index"
+  }
+}

@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - installation
   - setup-guide
-slug: /docs/linux/alpine/administration/installation
+slug: /linux/alpine/installation
 hide_table_of_contents: true
 ---
 

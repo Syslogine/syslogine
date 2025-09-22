@@ -13,7 +13,7 @@ tags:
   - almalinux
   - security
   - hardening
-slug: /docs/linux/almalinux/administration/security
+slug: /linux/almalinux/security
 hide_table_of_contents: true
 ---
 

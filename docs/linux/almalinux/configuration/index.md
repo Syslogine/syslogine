@@ -13,7 +13,7 @@ tags:
   - almalinux
   - system-configuration
   - setup-guide
-slug: /docs/linux/almalinux/administration/configuration
+slug: /linux/almalinux/configuration
 hide_table_of_contents: true
 ---
 

@@ -21,7 +21,7 @@ tags:
   - dnf-package-manager
   - linux-migration
   - server-administration
-slug: /docs/linux/almalinux
+slug: /linux/almalinux
 ---
 
 import DisplayTags from '@site/src/components/DisplayTags';

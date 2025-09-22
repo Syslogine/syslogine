@@ -13,7 +13,7 @@ tags:
   - almalinux
   - system-administration
   - server-management
-slug: /docs/linux/almalinux/administration/administration
+slug: /linux/almalinux/administration
 hide_table_of_contents: true
 ---
 

@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - network-configuration
   - networking
-slug: /docs/linux/alpine/administration/network
+slug: /linux/alpine/network
 hide_table_of_contents: true
 ---
 

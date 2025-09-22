@@ -13,7 +13,7 @@ tags:
   - almalinux
   - installation
   - setup-guide
-slug: /docs/linux/almalinux/administration/installation
+slug: /linux/almalinux/installation
 hide_table_of_contents: true
 ---
 

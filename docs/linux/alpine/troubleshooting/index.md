@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - troubleshooting
   - problem-solving
-slug: /docs/linux/alpine/administration/troubleshooting
+slug: /linux/alpine/troubleshooting
 hide_table_of_contents: true
 ---
 

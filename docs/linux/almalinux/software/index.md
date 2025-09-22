@@ -13,7 +13,7 @@ tags:
   - almalinux
   - package-management
   - software-installation
-slug: /docs/linux/almalinux/administration/software
+slug: /linux/almalinux/software
 hide_table_of_contents: true
 ---
 

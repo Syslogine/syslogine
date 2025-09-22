@@ -12,10 +12,10 @@ keywords:
   - "arch wiki"
   - "systemd arch"
   - "arch linux server"
-slug: arch-guide
+slug: /linux/arch
 ---
 
-# Arch Linux Administration
+# Arch Linux
 
 Arch Linux is a lightweight and flexible Linux distribution that follows the KISS (Keep It Simple, Stupid) principle. With its rolling release model and powerful package manager, Arch provides cutting-edge software and complete control over your system.
 

@@ -1,0 +1,8 @@
+{
+  "label": "Troubleshooting",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "linux/arch/troubleshooting/index"
+  }
+}

@@ -13,7 +13,7 @@ tags:
   - almalinux
   - network-configuration
   - networking
-slug: /docs/linux/almalinux/administration/network
+slug: /linux/almalinux/network
 hide_table_of_contents: true
 ---
 

@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - system-administration
   - server-management
-slug: /docs/linux/alpine/administration/administration
+slug: /linux/alpine/administration
 hide_table_of_contents: true
 ---
 
