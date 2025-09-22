@@ -15,7 +15,7 @@ tags:
   - filesystem-management
   - disk-management
   - server-administration
-slug: debian-13-filesystem-management
+slug: /os/linux/debian/server/13/filesystem-management
 ---
 
 import DisplayTags from '@site/src/components/DisplayTags';
