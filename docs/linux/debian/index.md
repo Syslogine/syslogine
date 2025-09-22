@@ -10,7 +10,7 @@ keywords:
   - "debian security"
   - "debian server"
   - "debian installation"
-slug: /debian/debian
+slug: /linux/debian
 ---
 
 # Debian Linux Administration

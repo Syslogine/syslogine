@@ -1,8 +1,0 @@
-{
-  "label": "Server",
-  "position": 2,
-  "link": {
-    "type": "doc",
-    "id": "linux/debian/server/index"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "label": "Debian Embedded (Generic)",
-  "position": 3,
-  "link": {
-    "type": "doc",
-    "id": "linux/debian/iot/debian-embedded/index"
-  }
-}

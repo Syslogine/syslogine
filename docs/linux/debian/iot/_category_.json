@@ -1,8 +1,0 @@
-{
-  "label": "IoT & Embedded",
-  "position": 3,
-  "link": {
-    "type": "doc",
-    "id": "linux/debian/iot/index"
-  }
-}
