@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: "Installation Guide | Alpine Linux"
-sidebar_label: "Installation Overview"
+sidebar_label: "Installation"
 description: "Complete Alpine Linux installation guide covering requirements, download, installation process, post-install setup, and specialized installations."
 keywords:
   - "alpine linux installation"
@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - installation
   - setup-guide
-slug: alpine-installation-overview
+slug: /docs/linux/alpine/administration/installation
 hide_table_of_contents: true
 ---
 

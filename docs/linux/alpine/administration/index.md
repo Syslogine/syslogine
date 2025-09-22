@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: "System Administration | Alpine Linux"
-sidebar_label: "Administration Overview"
+sidebar_label: "Administration"
 description: "Complete guide to Alpine Linux system administration covering user management, monitoring, processes, services, logging, backups, scheduling, and maintenance."
 keywords:
   - "alpine linux administration"
@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - system-administration
   - server-management
-slug: alpine-administration-overview
+slug: /docs/linux/alpine/administration/administration
 hide_table_of_contents: true
 ---
 

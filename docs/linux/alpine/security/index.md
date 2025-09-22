@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: "Security Configuration | Alpine Linux"
-sidebar_label: "Security Overview"
+sidebar_label: "Security"
 description: "Comprehensive Alpine Linux security guide covering user permissions, access control, authentication, firewall rules, encryption, and security auditing."
 keywords:
   - "alpine linux security"
@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - security
   - hardening
-slug: alpine-security-overview
+slug: /docs/linux/alpine/administration/security
 hide_table_of_contents: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: "System Configuration | Alpine Linux"
-sidebar_label: "Configuration Overview"
+sidebar_label: "Configuration"
 description: "Comprehensive guide to Alpine Linux system configuration including system settings, environment variables, boot configuration, and hardware setup."
 keywords:
   - "alpine linux configuration"
@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - system-configuration
   - setup-guide
-slug: alpine-configuration-overview
+slug: /docs/linux/alpine/administration/configuration
 hide_table_of_contents: true
 ---
 

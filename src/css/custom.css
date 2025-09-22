@@ -853,5 +853,8 @@ a:hover{text-decoration:none}
 
 /* Dark mode focus */
 [data-theme='dark'] .clickable-display-tag:focus {
-  outline-color: var(--ifm-color-primary-light);
+  outline-color:var(--ifm-color-primary-light);
 }
+
+.col[class*='col--']{padding-top:1rem}.card:has(.card__body:empty),.card:has(.card__body p:empty){display:none}
+

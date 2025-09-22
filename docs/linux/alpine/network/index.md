@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: "Network Configuration | Alpine Linux"
-sidebar_label: "Network Overview"
+sidebar_label: "Network"
 description: "Complete guide to Alpine Linux network configuration including network setup, wireless, static IP, DNS, firewall, VPN, and troubleshooting."
 keywords:
   - "alpine linux network"
@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - network-configuration
   - networking
-slug: alpine-network-overview
+slug: /docs/linux/alpine/administration/network
 hide_table_of_contents: true
 ---
 

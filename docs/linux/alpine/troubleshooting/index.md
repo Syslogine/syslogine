@@ -1,7 +1,7 @@
 ---
 sidebar_position: 7
 title: "Troubleshooting Guide | Alpine Linux"
-sidebar_label: "Troubleshooting Overview"
+sidebar_label: "Troubleshooting"
 description: "Comprehensive Alpine Linux troubleshooting guide covering boot issues, hardware problems, network issues, performance problems, and recovery procedures."
 keywords:
   - "alpine linux troubleshooting"
@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - troubleshooting
   - problem-solving
-slug: alpine-troubleshooting-overview
+slug: /docs/linux/alpine/administration/troubleshooting
 hide_table_of_contents: true
 ---
 

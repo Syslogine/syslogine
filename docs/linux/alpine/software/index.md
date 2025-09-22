@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: "Software Management | Alpine Linux"
-sidebar_label: "Software Overview"
+sidebar_label: "Software"
 description: "Complete guide to Alpine Linux software management covering package management, repositories, software installation, and application management."
 keywords:
   - "alpine linux packages"
@@ -13,7 +13,7 @@ tags:
   - alpine-linux
   - package-management
   - software-installation
-slug: alpine-software-overview
+slug: /docs/linux/alpine/administration/software
 hide_table_of_contents: true
 ---
 
