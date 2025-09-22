@@ -1,0 +1,8 @@
+{
+  "label": "System Settings",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/configuration/system-settings/index"
+  }
+}

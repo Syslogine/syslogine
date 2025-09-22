@@ -1,0 +1,8 @@
+{
+  "label": "Encryption",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/security/encryption/index"
+  }
+}

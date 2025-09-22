@@ -1,0 +1,8 @@
+{
+  "label": "Software Conflicts",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/troubleshooting/software-conflicts/index"
+  }
+}

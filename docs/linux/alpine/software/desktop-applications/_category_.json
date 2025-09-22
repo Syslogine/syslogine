@@ -1,0 +1,8 @@
+{
+  "label": "Desktop Applications",
+  "position": 6,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/software/desktop-applications/index"
+  }
+}

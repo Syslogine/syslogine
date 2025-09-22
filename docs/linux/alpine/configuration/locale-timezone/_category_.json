@@ -1,0 +1,8 @@
+{
+  "label": "Locale & Timezone",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/configuration/locale-timezone/index"
+  }
+}

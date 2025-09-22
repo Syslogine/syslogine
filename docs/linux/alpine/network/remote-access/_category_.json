@@ -1,0 +1,8 @@
+{
+  "label": "Remote Access",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/network/remote-access/index"
+  }
+}

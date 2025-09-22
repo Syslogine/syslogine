@@ -1,0 +1,8 @@
+{
+  "label": "Static IP",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/network/static-ip/index"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "DNS Configuration",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/network/dns-configuration/index"
+  }
+}

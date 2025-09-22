@@ -1,0 +1,8 @@
+{
+  "label": "Hardware Problems",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/troubleshooting/hardware-problems/index"
+  }
+}

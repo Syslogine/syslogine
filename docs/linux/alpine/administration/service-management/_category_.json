@@ -1,0 +1,8 @@
+{
+  "label": "Service Management",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/administration/service-management/index"
+  }
+}

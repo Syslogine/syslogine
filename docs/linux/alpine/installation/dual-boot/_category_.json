@@ -1,0 +1,8 @@
+{
+  "label": "Dual Boot",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/installation/dual-boot/index"
+  }
+}

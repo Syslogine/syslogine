@@ -1,0 +1,8 @@
+{
+  "label": "Software Installation",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/software/software-installation/index"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Recovery Procedures",
+  "position": 8,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/troubleshooting/recovery-procedures/index"
+  }
+}

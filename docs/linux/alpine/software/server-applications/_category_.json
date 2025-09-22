@@ -1,0 +1,8 @@
+{
+  "label": "Server Applications",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "linux/alpine/software/server-applications/index"
+  }
+}
