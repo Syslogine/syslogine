@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: "Filesystem Management | Debian 13 Server"
+title: "Filesystem Management"
 sidebar_label: "Filesystem Management"
 description: "Complete guide to filesystem management on Debian 13 Trixie server including disk partitioning, LVM, filesystem types, mounting, and storage optimization."
 keywords:
@@ -18,7 +18,9 @@ tags:
 slug: debian-13-filesystem-management
 ---
 
-# Filesystem Management in Debian 13 Server
+import DisplayTags from '@site/src/components/DisplayTags';
+
+<DisplayTags tags={['Debian', '13', 'Server']} />
 
 ## Overview
 This tutorial covers comprehensive filesystem management for Debian 13 servers, including disk partitioning, filesystem creation, LVM configuration, mounting strategies, and storage optimization. You'll learn to manage storage efficiently from basic setups to enterprise-grade solutions.
