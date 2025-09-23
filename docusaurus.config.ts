@@ -37,6 +37,10 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    './plugins/stats-plugin'
+  ],
+
   presets: [
     [
       'classic',
@@ -58,6 +62,7 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
   scripts: [
     '/js/custom.js'
   ],
@@ -76,24 +81,29 @@ const config: Config = {
         src: 'img/logo.webp',
       },
       items: [
+        { type: 'docSidebar',sidebarId: 'mainSidebar',position: 'left',label: 'Guides'},
+        { type: 'docSidebar', sidebarId: 'linuxSidebar', label: 'Linux', position: 'left' },
+        { type: 'docSidebar', sidebarId: 'windowsSidebar', label: 'Windows', position: 'left' },
+        { type: 'docSidebar', sidebarId: 'virtualizationSidebar', label: 'Virtualization', position: 'left' },
+
+        {type: 'search',position: 'right'},
+        {to: '/sponsor', label: '❤️ Sponsor', position: 'right'},
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Guides',
-        },
-        {to: '/docs/tags', label: 'Tags', position: 'left'},
-        {to: '/progress', label: 'Progress', position: 'left'},
-        {to: '/about', label: 'About', position: 'left'},
-        {
-          type: 'search',
+          label: 'More',
           position: 'right',
+          items: [
+            {to: '/progress', label: 'Progress'},
+            {to: '/changelog', label: 'Changelog'},
+            {to: '/roadmap', label: 'Roadmap'},
+            {to: '/community', label: 'Community'},
+            {to: '/faq', label: 'FAQ'},
+            {to: '/stats', label: 'Statistics'},
+            {to: '/about', label: 'About'},
+            {to: '/contact', label: 'Contact'},
+          ],
         },
-        {
-          href: 'https://github.com/yarpii/syslogine',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {to: '/docs/tags', label: 'Tags', position: 'right'},
+        {href: 'https://github.com/yarpii/syslogine',label: 'GitHub',position: 'right'},
       ],
     },
     footer: {
