@@ -1,0 +1,8 @@
+{
+  "label": "Boot Configuration",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/configuration/boot-configuration/index"
+  }
+}

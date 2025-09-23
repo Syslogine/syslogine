@@ -1,0 +1,8 @@
+{
+  "label": "Download Media",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/installation/download-media/index"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Hardware Configuration",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/configuration/hardware-configuration/index"
+  }
+}

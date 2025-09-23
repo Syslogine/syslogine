@@ -1,0 +1,8 @@
+{
+  "label": "Automated Install",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/installation/automated-install/index"
+  }
+}

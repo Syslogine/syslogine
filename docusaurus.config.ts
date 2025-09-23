@@ -83,6 +83,7 @@ const config: Config = {
           label: 'Guides',
         },
         {to: '/docs/tags', label: 'Tags', position: 'left'},
+        {to: '/about', label: 'About', position: 'left'},
         {
           type: 'search',
           position: 'right',

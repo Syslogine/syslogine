@@ -1,0 +1,8 @@
+{
+  "label": "Post-Install Setup",
+  "position": 4,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/installation/post-install-setup/index"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "System Maintenance",
+  "position": 8,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/administration/system-maintenance/index"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "System Monitoring",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/administration/system-monitoring/index"
+  }
+}

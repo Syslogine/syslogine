@@ -1,0 +1,8 @@
+{
+  "label": "Dual Boot",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/installation/dual-boot/index"
+  }
+}

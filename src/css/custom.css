@@ -858,3 +858,6 @@ a:hover{text-decoration:none}
 
 .col[class*='col--']{padding-top:1rem}.card:has(.card__body:empty),.card:has(.card__body p:empty){display:none}
 
+
+
+h2{margin-top:1.5rem}

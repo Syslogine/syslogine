@@ -1,0 +1,8 @@
+{
+  "label": "Log Management",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/administration/log-management/index"
+  }
+}

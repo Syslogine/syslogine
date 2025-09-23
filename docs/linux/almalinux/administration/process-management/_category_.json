@@ -1,0 +1,8 @@
+{
+  "label": "Process Management",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/administration/process-management/index"
+  }
+}

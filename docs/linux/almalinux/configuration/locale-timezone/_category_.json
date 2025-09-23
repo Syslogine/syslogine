@@ -1,0 +1,8 @@
+{
+  "label": "Locale & Timezone",
+  "position": 5,
+  "link": {
+    "type": "doc",
+    "id": "linux/almalinux/configuration/locale-timezone/index"
+  }
+}
