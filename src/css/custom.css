@@ -861,3 +861,92 @@ a:hover{text-decoration:none}
 
 
 h2{margin-top:1.5rem}
+
+.progress-page .about-hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    var(--ifm-color-primary),
+    var(--ifm-color-primary-lightest)
+  );
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.timeline-item {
+  width: 50%;
+  position: relative;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-dot {
+  width: 20px;
+  height: 20px;
+  background: var(--ifm-color-primary);
+  border-radius: 50%;
+  position: absolute;
+  top: 1.5rem; /* iets onder de top van de card */
+  /* center de dot op de lijn */
+  left: 100%; 
+  transform: translateX(-50%);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.timeline-item.right .timeline-dot {
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.timeline-content {
+  background: var(--ifm-background-surface-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--ifm-global-shadow-md);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--ifm-global-shadow-lg);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin-top: 0.5rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.tag.success { background: #4caf50; color: white; }
+.tag.warning { background: #ff9800; color: white; }
+.tag.planned { background: #9e9e9e; color: white; }
+.tag.ongoing { background: #2196f3; color: white; }
