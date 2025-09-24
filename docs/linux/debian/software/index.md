@@ -34,7 +34,7 @@ Debian pioneered modern package management with APT - the Advanced Package Tool 
           <p>Master APT commands: `apt install`, `apt remove`, `apt upgrade`, and advanced package operations with proven dependency resolution</p>
         </div>
         <div className="card__footer">
-          <a href="./package-management/" className="button button--primary">Read more</a>
+          <a href="./software/package-management/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ Debian pioneered modern package management with APT - the Advanced Package Tool 
           <p>Configure `/etc/apt/sources.list`, manage main/contrib/non-free repos, and add third-party repositories securely</p>
         </div>
         <div className="card__footer">
-          <a href="./repository-management/" className="button button--primary">Read more</a>
+          <a href="./software/repository-management/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ Debian pioneered modern package management with APT - the Advanced Package Tool 
           <p>Install from APT repos, compile from source with `build-essential`, and manage package tasks for server systems</p>
         </div>
         <div className="card__footer">
-          <a href="./software-installation/" className="button button--primary">Read more</a>
+          <a href="./software/software-installation/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ Debian pioneered modern package management with APT - the Advanced Package Tool 
           <p>Build-essential package, stable compilers, Python/Perl/Java environments, and reliable development workflows</p>
         </div>
         <div className="card__footer">
-          <a href="./development-tools/" className="button button--primary">Read more</a>
+          <a href="./software/development-tools/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@ Debian pioneered modern package management with APT - the Advanced Package Tool 
           <p>Apache2/Nginx, MySQL/PostgreSQL, PHP, and enterprise applications - all with stable versions for Debian's reliability</p>
         </div>
         <div className="card__footer">
-          <a href="./server-applications/" className="button button--primary">Read more</a>
+          <a href="./software/server-applications/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ Debian pioneered modern package management with APT - the Advanced Package Tool 
           <p>Stable desktop apps: Firefox-ESR, LibreOffice, Thunderbird, and multimedia tools with long-term support versions</p>
         </div>
         <div className="card__footer">
-          <a href="./desktop-applications/" className="button button--primary">Read more</a>
+          <a href="./software/desktop-applications/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -124,23 +124,11 @@ Debian pioneered modern package management with APT - the Advanced Package Tool 
           <p>Install from external repos, use Flatpak/Snap, compile from source, and create custom DEB packages</p>
         </div>
         <div className="card__footer">
-          <a href="./third-party-software/" className="button button--primary">Read more</a>
+          <a href="./software/third-party-software/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
     
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3></h3>
-        </div>
-        <div className="card__body">
-          <p></p>
-        </div>
-        <div className="card__footer">
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 

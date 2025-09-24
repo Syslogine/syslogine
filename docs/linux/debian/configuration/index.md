@@ -34,7 +34,7 @@ Debian's conservative approach means every configuration choice prioritizes stab
           <p>Configure hostname with `hostnamectl`, timezone with `timedatectl`, and essential Debian system settings via proven configuration methods</p>
         </div>
         <div className="card__footer">
-          <a href="./system-settings/" className="button button--primary">Read more</a>
+          <a href="./configuration/system-settings/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ Debian's conservative approach means every configuration choice prioritizes stab
           <p>Debian's bash shell environment, `/etc/profile` configuration, and server-optimized PATH settings for stable operation</p>
         </div>
         <div className="card__footer">
-          <a href="./environment-variables/" className="button button--primary">Read more</a>
+          <a href="./configuration/environment-variables/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ Debian's conservative approach means every configuration choice prioritizes stab
           <p>GRUB2 bootloader setup, `update-grub` configuration, and reliable boot modes for production systems</p>
         </div>
         <div className="card__footer">
-          <a href="./boot-configuration/" className="button button--primary">Read more</a>
+          <a href="./configuration/boot-configuration/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ Debian's conservative approach means every configuration choice prioritizes stab
           <p>Tune Debian's stable kernel, `sysctl.conf` optimization, and reliability-focused kernel modules for server deployments</p>
         </div>
         <div className="card__footer">
-          <a href="./kernel-parameters/" className="button button--primary">Read more</a>
+          <a href="./configuration/kernel-parameters/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@ Debian's conservative approach means every configuration choice prioritizes stab
           <p>Stable locale setup with glibc, `dpkg-reconfigure locales`, and multi-language support for international deployments</p>
         </div>
         <div className="card__footer">
-          <a href="./locale-timezone/" className="button button--primary">Read more</a>
+          <a href="./configuration/locale-timezone/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ Debian's conservative approach means every configuration choice prioritizes stab
           <p>Stable desktop setup with GNOME, KDE, XFCE, or MATE. Perfect for reliable workstations and server environments</p>
         </div>
         <div className="card__footer">
-          <a href="./desktop-environment/" className="button button--primary">Read more</a>
+          <a href="./configuration/desktop-environment/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -124,23 +124,11 @@ Debian's conservative approach means every configuration choice prioritizes stab
           <p>Hardware detection with stable tools, driver management via `modprobe`, and optimization for server hardware platforms</p>
         </div>
         <div className="card__footer">
-          <a href="./hardware-configuration/" className="button button--primary">Read more</a>
+          <a href="./configuration/hardware-configuration/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
     
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3></h3>
-        </div>
-        <div className="card__body">
-          <p></p>
-        </div>
-        <div className="card__footer">
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 

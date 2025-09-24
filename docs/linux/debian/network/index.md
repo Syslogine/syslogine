@@ -34,7 +34,7 @@ Debian excels in stable network environments with proven networking technologies
           <p>Configure interfaces with `/etc/network/interfaces`, manage NetworkManager, and set up reliable networking for server systems</p>
         </div>
         <div className="card__footer">
-          <a href="./network-configuration/" className="button button--primary">Read more</a>
+          <a href="./network/network-configuration/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ Debian excels in stable network environments with proven networking technologies
           <p>WiFi configuration with `wpa_supplicant`, NetworkManager wireless, and stable wireless networking for desktop environments</p>
         </div>
         <div className="card__footer">
-          <a href="./wireless-setup/" className="button button--primary">Read more</a>
+          <a href="./network/wireless-setup/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ Debian excels in stable network environments with proven networking technologies
           <p>Static IP configuration via `/etc/network/interfaces`, VLAN setup, and advanced routing for stable server configurations</p>
         </div>
         <div className="card__footer">
-          <a href="./static-ip/" className="button button--primary">Read more</a>
+          <a href="./network/static-ip/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ Debian excels in stable network environments with proven networking technologies
           <p>DNS setup with `/etc/resolv.conf`, BIND9 server configuration, and reliable name resolution for server environments</p>
         </div>
         <div className="card__footer">
-          <a href="./dns-configuration/" className="button button--primary">Read more</a>
+          <a href="./network/dns-configuration/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@ Debian excels in stable network environments with proven networking technologies
           <p>Robust `iptables` configuration, `ufw` simplified firewall, and proven security policies for production systems</p>
         </div>
         <div className="card__footer">
-          <a href="./firewall-setup/" className="button button--primary">Read more</a>
+          <a href="./network/firewall-setup/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ Debian excels in stable network environments with proven networking technologies
           <p>OpenVPN and WireGuard server/client setup, perfect for secure server access and reliable site-to-site connectivity</p>
         </div>
         <div className="card__footer">
-          <a href="./vpn-setup/" className="button button--primary">Read more</a>
+          <a href="./network/vpn-setup/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -124,7 +124,7 @@ Debian excels in stable network environments with proven networking technologies
           <p>Secure SSH configuration with OpenSSH, key-based authentication, and reliable remote management for server workflows</p>
         </div>
         <div className="card__footer">
-          <a href="./remote-access/" className="button button--primary">Read more</a>
+          <a href="./network/remote-access/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -138,7 +138,7 @@ Debian excels in stable network environments with proven networking technologies
           <p>Proven networking tools, packet analysis, and troubleshooting stable networking configurations</p>
         </div>
         <div className="card__footer">
-          <a href="./network-troubleshooting/" className="button button--primary">Read more</a>
+          <a href="./network/network-troubleshooting/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>

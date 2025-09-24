@@ -34,7 +34,7 @@ Debian's stable design makes troubleshooting predictable with well-documented so
           <p>GRUB2 bootloader problems, SystemD service failures, and stable boot troubleshooting with proven recovery procedures</p>
         </div>
         <div className="card__footer">
-          <a href="./boot-issues/" className="button button--primary">Read more</a>
+          <a href="./troubleshooting/boot-issues/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ Debian's stable design makes troubleshooting predictable with well-documented so
           <p>Hardware detection with proven tools, driver support issues, and troubleshooting stable hardware configurations</p>
         </div>
         <div className="card__footer">
-          <a href="./hardware-problems/" className="button button--primary">Read more</a>
+          <a href="./troubleshooting/hardware-problems/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ Debian's stable design makes troubleshooting predictable with well-documented so
           <p>Network interface problems, DNS resolution with stable tools, connectivity issues, and server networking troubleshooting</p>
         </div>
         <div className="card__footer">
-          <a href="./network-issues/" className="button button--primary">Read more</a>
+          <a href="./troubleshooting/network-issues/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ Debian's stable design makes troubleshooting predictable with well-documented so
           <p>Resource monitoring with stable tools, performance optimization, and tuning for server and desktop workloads</p>
         </div>
         <div className="card__footer">
-          <a href="./performance-issues/" className="button button--primary">Read more</a>
+          <a href="./troubleshooting/performance-issues/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@ Debian's stable design makes troubleshooting predictable with well-documented so
           <p>APT dependency conflicts, package installation issues, and resolving software problems in stable environments</p>
         </div>
         <div className="card__footer">
-          <a href="./software-conflicts/" className="button button--primary">Read more</a>
+          <a href="./troubleshooting/software-conflicts/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ Debian's stable design makes troubleshooting predictable with well-documented so
           <p>Filesystem corruption recovery, disk troubleshooting, and storage issues with proven Debian tools</p>
         </div>
         <div className="card__footer">
-          <a href="./filesystem-errors/" className="button button--primary">Read more</a>
+          <a href="./troubleshooting/filesystem-errors/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -124,7 +124,7 @@ Debian's stable design makes troubleshooting predictable with well-documented so
           <p>Debian-specific error messages, stable system issues, SystemD service failures, and quick diagnostic commands</p>
         </div>
         <div className="card__footer">
-          <a href="./common-errors/" className="button button--primary">Read more</a>
+          <a href="./troubleshooting/common-errors/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -138,7 +138,7 @@ Debian's stable design makes troubleshooting predictable with well-documented so
           <p>System recovery from rescue mode, backup restoration, and emergency recovery for production systems</p>
         </div>
         <div className="card__footer">
-          <a href="./recovery-procedures/" className="button button--primary">Read more</a>
+          <a href="./troubleshooting/recovery-procedures/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>

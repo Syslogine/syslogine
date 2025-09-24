@@ -34,7 +34,7 @@ Debian offers rock-solid system administration with its stability-focused design
           <p>Debian's `adduser`, `deluser` commands, group management with `addgroup`, and sudo configuration for secure stable access control</p>
         </div>
         <div className="card__footer">
-          <a href="./user-management/" className="button button--primary">Read more</a>
+          <a href="./administration/user-management/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ Debian offers rock-solid system administration with its stability-focused design
           <p>Monitor Debian with `systemctl`, `journalctl`, and reliable monitoring tools. Perfect for server and production deployments</p>
         </div>
         <div className="card__footer">
-          <a href="./system-monitoring/" className="button button--primary">Read more</a>
+          <a href="./administration/system-monitoring/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ Debian offers rock-solid system administration with its stability-focused design
           <p>Master Debian's SystemD utilities for process control, resource limits, and managing stable server applications</p>
         </div>
         <div className="card__footer">
-          <a href="./process-management/" className="button button--primary">Read more</a>
+          <a href="./administration/process-management/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ Debian offers rock-solid system administration with its stability-focused design
           <p>SystemD service management with `systemctl`, `systemd-analyze`, and creating custom unit files for Debian's stable architecture</p>
         </div>
         <div className="card__footer">
-          <a href="./service-management/" className="button button--primary">Read more</a>
+          <a href="./administration/service-management/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@ Debian offers rock-solid system administration with its stability-focused design
           <p>Configure Debian's rsyslog and systemd-journald, manage logs in production environments, and set up centralized logging for stable systems</p>
         </div>
         <div className="card__footer">
-          <a href="./log-management/" className="button button--primary">Read more</a>
+          <a href="./administration/log-management/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ Debian offers rock-solid system administration with its stability-focused design
           <p>Reliable backup strategies for Debian systems, snapshot management, and recovery solutions for production-stable setups</p>
         </div>
         <div className="card__footer">
-          <a href="./backup-restore/" className="button button--primary">Read more</a>
+          <a href="./administration/backup-restore/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -124,7 +124,7 @@ Debian offers rock-solid system administration with its stability-focused design
           <p>SystemD timer configuration, reliable task automation, and scheduled maintenance for Debian's stable update cycle</p>
         </div>
         <div className="card__footer">
-          <a href="./task-scheduling/" className="button button--primary">Read more</a>
+          <a href="./administration/task-scheduling/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -138,7 +138,7 @@ Debian offers rock-solid system administration with its stability-focused design
           <p>APT package updates, system optimization for server computing, and maintaining Debian's stability-focused configuration</p>
         </div>
         <div className="card__footer">
-          <a href="./system-maintenance/" className="button button--primary">Read more</a>
+          <a href="./administration/system-maintenance/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>

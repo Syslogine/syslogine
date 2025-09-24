@@ -34,7 +34,7 @@ Debian offers proven installation methods with a focus on stability and reliabil
           <p>Minimum 1GB RAM requirement, multi-architecture support, and hardware compatibility for stable server systems</p>
         </div>
         <div className="card__footer">
-          <a href="./requirements/" className="button button--primary">Read more</a>
+          <a href="./installation/requirements/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ Debian offers proven installation methods with a focus on stability and reliabil
           <p>Choose from Stable, Testing, or Netinst ISO images. Create bootable media with reliable verification methods</p>
         </div>
         <div className="card__footer">
-          <a href="./download-media/" className="button button--primary">Read more</a>
+          <a href="./installation/download-media/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ Debian offers proven installation methods with a focus on stability and reliabil
           <p>Master the Debian installer for guided setup, or preseed for automated stable deployments</p>
         </div>
         <div className="card__footer">
-          <a href="./installation-guide/" className="button button--primary">Read more</a>
+          <a href="./installation/installation-guide/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ Debian offers proven installation methods with a focus on stability and reliabil
           <p>Essential APT repository setup, user creation with `adduser`, server hardening, and initial stable configuration</p>
         </div>
         <div className="card__footer">
-          <a href="./post-install-setup/" className="button button--primary">Read more</a>
+          <a href="./installation/post-install-setup/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@ Debian offers proven installation methods with a focus on stability and reliabil
           <p>GRUB2 configuration for dual boot with Windows/Linux, reliable boot management for multi-OS environments</p>
         </div>
         <div className="card__footer">
-          <a href="./dual-boot/" className="button button--primary">Read more</a>
+          <a href="./installation/dual-boot/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ Debian offers proven installation methods with a focus on stability and reliabil
           <p>Install in VMware/VirtualBox/KVM, container creation, and cloud deployment for stable server environments</p>
         </div>
         <div className="card__footer">
-          <a href="./virtualization/" className="button button--primary">Read more</a>
+          <a href="./installation/virtualization/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -124,23 +124,11 @@ Debian offers proven installation methods with a focus on stability and reliabil
           <p>Unattended installation with preseed files, PXE boot setup, and automation for stable deployment scenarios</p>
         </div>
         <div className="card__footer">
-          <a href="./automated-install/" className="button button--primary">Read more</a>
+          <a href="./installation/automated-install/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
-    
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3></h3>
-        </div>
-        <div className="card__body">
-          <p></p>
-        </div>
-        <div className="card__footer">
-        </div>
-      </div>
-    </div>
+
   </div>
 </div>
 
