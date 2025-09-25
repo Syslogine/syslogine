@@ -22,7 +22,7 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en']
   },
 
   themes: [
@@ -37,9 +37,7 @@ const config: Config = {
     ],
   ],
 
-  plugins: [
-    './plugins/stats-plugin'
-  ],
+  plugins: ['./plugins/stats-plugin'],
 
   presets: [
     [
@@ -82,10 +80,9 @@ const config: Config = {
       },
       items: [
         { type: 'docSidebar',sidebarId: 'mainSidebar',position: 'left',label: 'Guides'},
-        { type: 'docSidebar', sidebarId: 'linuxSidebar', label: 'Linux', position: 'left' },
-        { type: 'docSidebar', sidebarId: 'windowsSidebar', label: 'Windows', position: 'left' },
-        { type: 'docSidebar', sidebarId: 'virtualizationSidebar', label: 'Virtualization', position: 'left' },
-
+        { type: 'docSidebar', sidebarId: 'linuxSidebar', label: 'Linux', position: 'left'},
+        { type: 'docSidebar', sidebarId: 'windowsSidebar', label: 'Windows', position: 'left'},
+        { type: 'docSidebar', sidebarId: 'virtualizationSidebar', label: 'Virtualization', position: 'left'},
         {type: 'search',position: 'right'},
         {to: '/sponsor', label: '❤️ Sponsor', position: 'right'},
         {
@@ -103,70 +100,81 @@ const config: Config = {
           ],
         },
         {to: '/docs/tags', label: 'Tags', position: 'right'},
-        {href: 'https://github.com/yarpii/syslogine',label: 'GitHub',position: 'right'},
+        {href: 'https://github.com/yarpii/syslogine',label: 'GitHub',position: 'right'}
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
+          title: 'Getting Started',
+          items: [
+            {label: 'Welcome Guide', to: '/docs/welcome'},
+            {label: 'Quick Start', to: '/docs/intro'},
+            {label: 'Installation Guides', to: '/docs/linux/debian/installation'},
+            {label: 'Browse by Tags', to: '/docs/tags'},
+            {label: 'FAQ', to: '/faq'},
+          ],
+        },
+        {
           title: 'Documentation',
           items: [
-            {
-              label: 'System Administration',
-              to: '/docs/intro',
-            },
-            {
-              label: 'Linux Guides',
-              to: '/docs/basics',
-            },
-            {
-              label: 'Security Tutorials',
-              to: '/docs/security',
-            },
-            {
-              label: 'Browse by Tags',
-              to: '/docs/tags',
-            },
+            {label: 'Linux Guides', to: '/docs/linux'},
+            {label: 'Windows Guides', to: '/docs/windows'},
+            {label: 'Virtualization', to: '/docs/virtualization'},
+            {label: 'Security', to: '/docs/security'},
+            {label: 'Monitoring', to: '/docs/monitoring'},
           ],
         },
         {
-          title: 'Community',
+          title: 'Community & Support',
           items: [
-            {
-              label: 'GitHub Discussions',
-              href: 'https://github.com/yarpii/syslogine/discussions',
-            },
-            {
-              label: 'Issues & Support',
-              href: 'https://github.com/yarpii/syslogine/issues',
-            },
+            {label: 'GitHub Discussions', href: 'https://github.com/yarpii/syslogine/discussions'},
+            {label: 'Report Issues', href: 'https://github.com/yarpii/syslogine/issues'},
+            {label: 'Community Guidelines', to: '/community'},
+            {label: 'Contribute', href: 'https://github.com/yarpii/syslogine/blob/main/CONTRIBUTING.md'},
+            {label: 'Contact Us', to: '/contact'},
           ],
         },
         {
-          title: 'More',
+          title: 'Project Info',
           items: [
-            {
-              label: 'Website',
-              href: 'https://syslogine.cloud',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/yarpii',
-            },
+            {label: 'About Syslogine', to: '/about'},
+            {label: 'Project Roadmap', to: '/roadmap'},
+            {label: 'Progress Tracker', to: '/progress'},
+            {label: 'Changelog', to: '/changelog'},
+            {label: 'Statistics', to: '/stats'},
+          ],
+        },
+        {
+          title: 'Resources',
+          items: [
+            {label: 'GitHub Repository', href: 'https://github.com/yarpii/syslogine'},
+            {label: 'Sponsor Project', to: '/sponsor'},
+            {label: 'Download Resources', to: '/downloads'},
+            {label: 'API Documentation', to: '/api'},
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Syslogine. Built with Docusaurus.`,
+      copyright: `
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+          <div>Copyright © ${new Date().getFullYear()} Syslogine. Built with Docusaurus.</div>
+          <div style="font-size: 0.85em; opacity: 0.8;">
+            Professional System Administration Knowledge Base | 
+            <a href="/privacy" style="color: inherit;">Privacy Policy</a> | 
+            <a href="/terms" style="color: inherit;">Terms of Service</a>
+          </div>
+        </div>
+      `
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      darkTheme: prismThemes.dracula
     },
     docs: {
       sidebar: {
         hideable: true,
-        autoCollapseCategories: true,
+        autoCollapseCategories: true
       },
     },
   } satisfies Preset.ThemeConfig,

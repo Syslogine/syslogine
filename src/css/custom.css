@@ -520,7 +520,7 @@ tr:hover {
 
 .markdown h3 {
   color: var(--ifm-color-primary-light);
-  font-weight: 600;
+  padding-top: 15px;
 }
 
 blockquote {

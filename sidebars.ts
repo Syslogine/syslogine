@@ -183,8 +183,17 @@ const sidebars: SidebarsConfig = {
             {
               type: 'category',
               label: 'Create Users',
-              link: { type: 'doc', id: 'linux/debian/administration/user-management/create-users/index' },
-              items: []
+              link: { type: 'doc', id: 'linux/debian/administration/user-management/user-accounts/index' },
+              items: [
+                'linux/debian/administration/user-management/user-accounts/adduser',
+                'linux/debian/administration/user-management/user-accounts/useradd',
+                'linux/debian/administration/user-management/user-accounts/usermod',
+                'linux/debian/administration/user-management/user-accounts/passwd',
+                'linux/debian/administration/user-management/user-accounts/deluser',
+                'linux/debian/administration/user-management/user-accounts/userdel',
+                'linux/debian/administration/user-management/user-accounts/lock-unlock',
+                'linux/debian/administration/user-management/user-accounts/account-info'
+              ]
             },
             {
               type: 'category',
