@@ -1,149 +1,104 @@
 ---
 sidebar_position: 1
-title: "Package Management | Alpine Linux"
+title: "Package Management"
 sidebar_label: "Package Management"
-description: "Master APK package manager, install and remove packages, and manage package dependencies efficiently in Alpine Linux."
+description: "Alpine Package Keeper (APK) - package management system for Alpine Linux, manage software packages, repositories, and system updates."
 keywords:
+  - "alpine package management"
+  - "apk package manager"
   - "alpine apk"
-  - "alpine package manager"
-  - "alpine install packages"
-  - "alpine package dependencies"
+  - "package management alpine"
+  - "apk commands"
 tags:
-  - alpine-linux
+  - alpine
   - package-management
   - apk
+  - software-management
 slug: /linux/alpine/software/package-management
-hide_table_of_contents: true
 ---
 
 # Package Management
 
-Alpine Linux uses APK (Alpine Package Keeper) as its package manager, providing fast, efficient package installation and management. APK's design philosophy aligns with Alpine's minimal approach while offering comprehensive dependency resolution.
+Alpine Linux uses **APK (Alpine Package Keeper)** as its package management system.
 
-## Available Topics
+## APK Commands
 
-<div className="container">
-  <div className="row">
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3>🚀 APK Basics</h3>
-        </div>
-        <div className="card__body">
-          <p>Learn APK fundamentals, basic commands like <code>apk add</code> and <code>apk del</code>, and essential package operations</p>
-        </div>
-        <div className="card__footer">
-          <a href="./apk-basics/" className="button button--primary">Read more</a>
-        </div>
-      </div>
-    </div>
-    
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3>🔍 Package Search</h3>
-        </div>
-        <div className="card__body">
-          <p>Search for packages with <code>apk search</code>, find package information, and explore available software</p>
-        </div>
-        <div className="card__footer">
-          <a href="./package-search/" className="button button--primary">Read more</a>
-        </div>
-      </div>
-    </div>
-  </div>
+### Package Installation
+- [apk add](./package-management/install-packages) - Install packages and dependencies
 
-  <div className="row">
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3>📦 Package Installation</h3>
-        </div>
-        <div className="card__body">
-          <p>Install packages efficiently, handle multiple packages, and manage installation options with APK</p>
-        </div>
-        <div className="card__footer">
-          <a href="./package-installation/" className="button button--primary">Read more</a>
-        </div>
-      </div>
-    </div>
-    
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3>🗑️ Package Removal</h3>
-        </div>
-        <div className="card__body">
-          <p>Remove packages safely, handle dependencies, and clean up orphaned packages with <code>apk del</code></p>
-        </div>
-        <div className="card__footer">
-          <a href="./package-removal/" className="button button--primary">Read more</a>
-        </div>
-      </div>
-    </div>
-  </div>
+### Package Removal
+- [apk del](./package-management/remove-packages) - Remove packages from system
 
-  <div className="row">
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3>🔄 Package Updates</h3>
-        </div>
-        <div className="card__body">
-          <p>Update packages with <code>apk upgrade</code>, manage system updates, and handle update conflicts</p>
-        </div>
-        <div className="card__footer">
-          <a href="./package-updates/" className="button button--primary">Read more</a>
-        </div>
-      </div>
-    </div>
-    
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3>🔗 Dependency Management</h3>
-        </div>
-        <div className="card__body">
-          <p>Understand package dependencies, resolve conflicts, and manage complex dependency relationships</p>
-        </div>
-        <div className="card__footer">
-          <a href="./dependency-management/" className="button button--primary">Read more</a>
-        </div>
-      </div>
-    </div>
-  </div>
+### System Updates
+- [apk update](./package-management/update-packages/apk-update) - Update repository indexes
+- [apk upgrade](./package-management/update-packages/apk-upgrade) - Upgrade installed packages
 
-  <div className="row">
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3>💾 Package Cache</h3>
-        </div>
-        <div className="card__body">
-          <p>Manage APK cache, control download storage, and optimize cache usage for Alpine systems</p>
-        </div>
-        <div className="card__footer">
-          <a href="./package-cache/" className="button button--primary">Read more</a>
-        </div>
-      </div>
-    </div>
-    
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3>🔧 APK Configuration</h3>
-        </div>
-        <div className="card__body">
-          <p>Configure APK settings, customize package manager behavior, and optimize APK performance</p>
-        </div>
-        <div className="card__footer">
-          <a href="./apk-configuration/" className="button button--primary">Read more</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+### Package Information
+- [apk search](./package-management/search-packages/apk-search) - Search for packages
+- [apk info](./package-management/search-packages/apk-info) - Display package information
 
----
+### Package Tools
+- [apk cache](./package-management/use-package-tools/apk-cache) - Manage package cache
+- [apk fix](./package-management/use-package-tools/apk-fix) - Repair package installations
+- [apk verify](./package-management/use-package-tools/apk-verify) - Verify package integrity
+- [apk audit](./package-management/use-package-tools/apk-audit) - Audit security vulnerabilities
+- [apk dot](./package-management/use-package-tools/apk-dot) - Generate dependency graphs
+- [apk stats](./package-management/use-package-tools/apk-stats) - Display repository statistics
 
-*APK's efficiency makes package management effortless - fast downloads, quick installation, minimal overhead.*
+## Basic Syntax
+
+```bash
+apk [OPTIONS] COMMAND [ARGUMENTS]
+```
+
+## Common Options
+
+| Option | Description |
+|--------|-------------|
+| `-v, --verbose` | Verbose output |
+| `-q, --quiet` | Quiet mode |
+| `-i, --interactive` | Ask before actions |
+| `-s, --simulate` | Simulate operation |
+| `--no-cache` | Don't use cache |
+| `-U, --update-cache` | Update cache first |
+
+## Configuration Files
+
+| File | Purpose |
+|------|---------|
+| `/etc/apk/repositories` | Repository list |
+| `/etc/apk/world` | Installed packages |
+| `/var/cache/apk/` | Package cache |
+| `/lib/apk/db/` | APK database |
+
+## Quick Examples
+
+**Update system:**
+```bash
+apk update && apk upgrade
+```
+
+**Install package:**
+```bash
+apk add nginx
+```
+
+**Search package:**
+```bash
+apk search nginx
+```
+
+**Remove package:**
+```bash
+apk del nginx
+```
+
+**Show package info:**
+```bash
+apk info nginx
+```
+
+## See Also
+
+- [Alpine Wiki - APK](https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper)
+- `man apk`

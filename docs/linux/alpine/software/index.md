@@ -34,7 +34,7 @@ Alpine Linux revolutionizes package management with APK (Alpine Package Keeper) 
           <p>Master APK commands: <code>apk add</code>, <code>apk del</code>, <code>apk upgrade</code>, and advanced package operations with dependency resolution</p>
         </div>
         <div className="card__footer">
-          <a href="./package-management/" className="button button--primary">Read more</a>
+          <a href="./software/package-management/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@ Alpine Linux revolutionizes package management with APK (Alpine Package Keeper) 
           <p>Configure <code>/etc/apk/repositories</code>, manage main/community/testing repos, and add third-party repositories securely</p>
         </div>
         <div className="card__footer">
-          <a href="./repository-management/" className="button button--primary">Read more</a>
+          <a href="./software/repository-management/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ Alpine Linux revolutionizes package management with APK (Alpine Package Keeper) 
           <p>Install software from APK repos, compile from source with <code>abuild</code>, and manage virtual packages for containers</p>
         </div>
         <div className="card__footer">
-          <a href="./software-installation/" className="button button--primary">Read more</a>
+          <a href="./software/software-installation/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ Alpine Linux revolutionizes package management with APK (Alpine Package Keeper) 
           <p>Alpine SDK, GCC compiler suite, Python/Node.js/Go development environments, and container-based development workflows</p>
         </div>
         <div className="card__footer">
-          <a href="./development-tools/" className="button button--primary">Read more</a>
+          <a href="./software/development-tools/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -94,7 +94,7 @@ Alpine Linux revolutionizes package management with APK (Alpine Package Keeper) 
           <p>Nginx, Apache, PostgreSQL, MariaDB, Redis, Docker, and Kubernetes - optimized for Alpine's minimal footprint</p>
         </div>
         <div className="card__footer">
-          <a href="./server-applications/" className="button button--primary">Read more</a>
+          <a href="./software/server-applications/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@ Alpine Linux revolutionizes package management with APK (Alpine Package Keeper) 
           <p>Lightweight desktop apps: Firefox, LibreOffice, GIMP, and multimedia tools optimized for Alpine's efficient resource usage</p>
         </div>
         <div className="card__footer">
-          <a href="./desktop-applications/" className="button button--primary">Read more</a>
+          <a href="./software/desktop-applications/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
@@ -124,23 +124,11 @@ Alpine Linux revolutionizes package management with APK (Alpine Package Keeper) 
           <p>Install from external repos, compile static binaries, use Flatpak/AppImage, and create custom APK packages</p>
         </div>
         <div className="card__footer">
-          <a href="./third-party-software/" className="button button--primary">Read more</a>
+          <a href="./software/third-party-software/" className="button button--primary">Read more</a>
         </div>
       </div>
     </div>
-    
-    <div className="col col--6">
-      <div className="card">
-        <div className="card__header">
-          <h3></h3>
-        </div>
-        <div className="card__body">
-          <p></p>
-        </div>
-        <div className="card__footer">
-        </div>
-      </div>
-    </div>
+
   </div>
 </div>
 
