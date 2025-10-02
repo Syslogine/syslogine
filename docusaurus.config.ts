@@ -67,7 +67,12 @@ const config: Config = {
   ],
 
   scripts: [
-    '/js/custom.js'
+    '/js/custom.js',
+    {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8675646092369975',
+      async: true,
+      crossorigin: 'anonymous',
+    },
   ],
 
   themeConfig: {
