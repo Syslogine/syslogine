@@ -1,8 +1,0 @@
-{
-  "label": "System Maintenance",
-  "position": 8,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/administration/system-maintenance/index"
-  }
-}

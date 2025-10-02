@@ -1,8 +1,0 @@
-{
-  "label": "Network Troubleshooting",
-  "position": 8,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/network/network-troubleshooting/index"
-  }
-}

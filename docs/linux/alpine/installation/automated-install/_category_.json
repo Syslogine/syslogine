@@ -1,8 +1,0 @@
-{
-  "label": "Automated Install",
-  "position": 7,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/installation/automated-install/index"
-  }
-}

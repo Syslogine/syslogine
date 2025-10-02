@@ -1,8 +1,0 @@
-{
-  "label": "Network",
-  "position": 4,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/network/index"
-  }
-}

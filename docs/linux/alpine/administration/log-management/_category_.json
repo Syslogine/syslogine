@@ -1,8 +1,0 @@
-{
-  "label": "Log Management",
-  "position": 5,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/administration/log-management/index"
-  }
-}

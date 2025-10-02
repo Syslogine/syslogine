@@ -1,8 +1,0 @@
-{
-  "label": "Intrusion Detection",
-  "position": 7,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/security/intrusion-detection/index"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "label": "Environment Variables",
-  "position": 2,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/configuration/environment-variables/index"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "label": "Post-Install Setup",
-  "position": 4,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/installation/post-install-setup/index"
-  }
-}

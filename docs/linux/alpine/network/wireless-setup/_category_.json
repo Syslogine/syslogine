@@ -1,8 +1,0 @@
-{
-  "label": "Wireless Setup",
-  "position": 2,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/network/wireless-setup/index"
-  }
-}

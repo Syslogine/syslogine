@@ -1,8 +1,0 @@
-{
-  "label": "Access Control",
-  "position": 2,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/security/access-control/index"
-  }
-}

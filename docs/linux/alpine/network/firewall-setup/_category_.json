@@ -1,8 +1,0 @@
-{
-  "label": "Firewall Setup",
-  "position": 5,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/network/firewall-setup/index"
-  }
-}

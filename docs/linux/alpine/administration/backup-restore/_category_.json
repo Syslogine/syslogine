@@ -1,8 +1,0 @@
-{
-  "label": "Backup & Restore",
-  "position": 6,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/administration/backup-restore/index"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "label": "VPN Setup",
-  "position": 6,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/network/vpn-setup/index"
-  }
-}

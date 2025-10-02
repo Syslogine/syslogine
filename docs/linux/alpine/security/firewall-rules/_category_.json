@@ -1,8 +1,0 @@
-{
-  "label": "Firewall Rules",
-  "position": 4,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/security/firewall-rules/index"
-  }
-}

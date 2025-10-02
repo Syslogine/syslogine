@@ -1,8 +1,0 @@
-{
-  "label": "Boot Configuration",
-  "position": 3,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/configuration/boot-configuration/index"
-  }
-}

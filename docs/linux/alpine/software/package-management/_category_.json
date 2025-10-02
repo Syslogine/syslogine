@@ -1,8 +1,0 @@
-{
-  "label": "Package Management",
-  "position": 1,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/software/package-management/index"
-  }
-}

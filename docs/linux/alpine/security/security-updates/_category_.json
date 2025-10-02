@@ -1,8 +1,0 @@
-{
-  "label": "Security Updates",
-  "position": 6,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/security/security-updates/index"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "label": "Security Audit",
-  "position": 8,
-  "link": {
-    "type": "doc",
-    "id": "linux/alpine/security/security-audit/index"
-  }
-}
