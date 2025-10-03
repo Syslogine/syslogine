@@ -127,12 +127,10 @@ not just the "how" but also the "why" behind each procedure.
 Our infrastructure section covers the fundamental technologies that power modern IT environments. 
 You'll find comprehensive guides for setting up, configuring, and maintaining servers and networks.
 
-<ul>
-<li><strong>Linux Administration</strong>: Detailed tutorials for Ubuntu Server, Alpine Linux, RHEL, and Debian including installation, configuration, package management, and system optimization.</li>
-<li><strong>Windows Server</strong>: Complete guides for Active Directory deployment, Group Policy configuration, PowerShell scripting, and Windows Server administration.</li>
-<li><strong>Virtualization</strong>: In-depth coverage of VMware vSphere, Microsoft Hyper-V, and KVM virtualization platforms with practical setup and management instructions.</li>
-<li><strong>Network Administration</strong>: Comprehensive networking guides covering routing protocols, switching configurations, firewall setup, VLAN design, and network security.</li>
-</ul>
+- **Linux Administration**: Detailed tutorials for Ubuntu Server, Alpine Linux, RHEL, and Debian including installation, configuration, package management, and system optimization.
+- **Windows Server**: Complete guides for Active Directory deployment, Group Policy configuration, PowerShell scripting, and Windows Server administration.
+- **Virtualization**: In-depth coverage of VMware vSphere, Microsoft Hyper-V, and KVM virtualization platforms with practical setup and management instructions.
+- **Network Administration**: Comprehensive networking guides covering routing protocols, switching configurations, firewall setup, VLAN design, and network security.
 
 </TabItem>
 
@@ -143,12 +141,10 @@ You'll find comprehensive guides for setting up, configuring, and maintaining se
 Learn how to leverage cloud technologies and DevOps practices to build scalable, automated infrastructure. 
 Our cloud and DevOps section provides practical tutorials for modern IT operations.
 
-<ul>
-<li><strong>Cloud Platforms</strong>: Detailed guides for Amazon AWS, Microsoft Azure, and Google Cloud Platform covering compute, storage, networking, and platform-specific services.</li>
-<li><strong>Containers</strong>: Comprehensive Docker tutorials, Kubernetes orchestration guides, and container best practices for deploying microservices and applications.</li>
-<li><strong>Infrastructure as Code</strong>: Learn Terraform for multi-cloud provisioning, Ansible for configuration management, and AWS CloudFormation for AWS infrastructure automation.</li>
-<li><strong>CI/CD Pipelines</strong>: Step-by-step guides for Jenkins pipeline creation, GitLab CI configuration, and GitHub Actions workflow automation.</li>
-</ul>
+- **Cloud Platforms**: Detailed guides for Amazon AWS, Microsoft Azure, and Google Cloud Platform covering compute, storage, networking, and platform-specific services.
+- **Containers**: Comprehensive Docker tutorials, Kubernetes orchestration guides, and container best practices for deploying microservices and applications.
+- **Infrastructure as Code**: Learn Terraform for multi-cloud provisioning, Ansible for configuration management, and AWS CloudFormation for AWS infrastructure automation.
+- **CI/CD Pipelines**: Step-by-step guides for Jenkins pipeline creation, GitLab CI configuration, and GitHub Actions workflow automation.
 
 </TabItem>
 
@@ -159,12 +155,10 @@ Our cloud and DevOps section provides practical tutorials for modern IT operatio
 Security and monitoring are critical aspects of system administration. Our guides help you implement 
 robust security measures and comprehensive monitoring solutions.
 
-<ul>
-<li><strong>Security Hardening</strong>: Detailed system hardening procedures, compliance framework implementation (CIS, NIST), and security best practices for various platforms.</li>
-<li><strong>Monitoring Solutions</strong>: Complete setup guides for Prometheus metrics collection, Grafana dashboard creation, ELK Stack log analysis, and Zabbix infrastructure monitoring.</li>
-<li><strong>Backup & Recovery</strong>: Comprehensive backup strategy development, disaster recovery planning, and tested restoration procedures for critical systems.</li>
-<li><strong>Automation</strong>: Script development tutorials, task automation guides, and configuration management best practices using various automation tools.</li>
-</ul>
+- **Security Hardening**: Detailed system hardening procedures, compliance framework implementation (CIS, NIST), and security best practices for various platforms.
+- **Monitoring Solutions**: Complete setup guides for Prometheus metrics collection, Grafana dashboard creation, ELK Stack log analysis, and Zabbix infrastructure monitoring.
+- **Backup & Recovery**: Comprehensive backup strategy development, disaster recovery planning, and tested restoration procedures for critical systems.
+- **Automation**: Script development tutorials, task automation guides, and configuration management best practices using various automation tools.
 
 </TabItem>
 </Tabs>
@@ -339,4 +333,4 @@ succeed.
 
 New tutorials are published weekly. Follow our GitHub repository to get notified about new content, 
 updates, and community discussions. We're constantly expanding our library based on community feedback 
-and emerging technologies in the IT industry.</document_content></document>
+and emerging technologies in the IT industry.
