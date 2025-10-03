@@ -17,8 +17,11 @@ function HomepageHeader() {
           Master System Administration
         </Heading>
         <p className="hero__subtitle">
-          Professional tutorials for Linux, Windows Server, networking, security, and DevOps. 
-          Trusted by thousands of IT professionals worldwide.
+          Professional system administration tutorials and in-depth guides for Linux, 
+          Windows Server, networking, security, virtualization, and DevOps. 
+          Our comprehensive documentation helps IT professionals and system administrators 
+          master enterprise technologies with practical, real-world examples. 
+          Trusted by thousands of professionals worldwide.
         </p>
         <div className={styles.buttons}>
           <Link
@@ -178,9 +181,43 @@ function PopularTutorials() {
   );
 }
 
-function StatsSection() {
+function AboutSection() {
   return (
     <section style={{padding: '4rem 0', backgroundColor: 'var(--ifm-color-emphasis-100)'}}>
+      <div className="container">
+        <div className="row">
+          <div className="col col--8 col--offset-2">
+            <div className="text--center" style={{marginBottom: '2rem'}}>
+              <Heading as="h2">About Syslogine</Heading>
+            </div>
+            <p style={{fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '1.5rem'}}>
+              Syslogine is a comprehensive platform dedicated to providing high-quality 
+              system administration tutorials and documentation. Our mission is to help 
+              IT professionals master complex technologies through clear, practical guides 
+              that solve real-world infrastructure challenges.
+            </p>
+            <p style={{fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '1.5rem'}}>
+              Founded in 2024, we've built an extensive library of tutorials covering 
+              everything from Linux administration to modern DevOps practices. Each guide 
+              is carefully crafted by experienced system administrators who understand 
+              the challenges of managing enterprise infrastructure.
+            </p>
+            <p style={{fontSize: '1.1rem', lineHeight: '1.8'}}>
+              Whether you're a beginner learning the basics or an experienced professional 
+              looking for advanced techniques, Syslogine provides the knowledge you need 
+              to succeed in your IT career. Our tutorials are regularly updated to reflect 
+              the latest industry standards and best practices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function StatsSection() {
+  return (
+    <section style={{padding: '4rem 0'}}>
       <div className="container">
         <div className="row">
           <div className="col col--3 text--center" style={{marginBottom: '2rem'}}>
@@ -242,8 +279,8 @@ function CommunitySection() {
                   <div style={{display: 'flex', alignItems: 'flex-start', marginBottom: '1.5rem'}}>
                     <div style={{fontSize: '2rem', marginRight: '1rem', minWidth: '60px'}}>💬</div>
                     <div>
-                      <h4 style={{margin: '0 0 0.5rem 0', color: 'var(--ifm-color-primary)'}}>24/7 Expert Support</h4>
-                      <p style={{margin: 0, fontSize: '1rem'}}>Get help from experienced sysadmins around the clock in our active community channels.</p>
+                      <h4 style={{margin: '0 0 0.5rem 0', color: 'var(--ifm-color-primary)'}}>Active Discussion Forum</h4>
+                      <p style={{margin: 0, fontSize: '1rem'}}>Get help from experienced sysadmins in our community forum where questions are answered quickly.</p>
                     </div>
                   </div>
                   
@@ -251,15 +288,15 @@ function CommunitySection() {
                     <div style={{fontSize: '2rem', marginRight: '1rem', minWidth: '60px'}}>🎯</div>
                     <div>
                       <h4 style={{margin: '0 0 0.5rem 0', color: 'var(--ifm-color-primary)'}}>Career Networking</h4>
-                      <p style={{margin: 0, fontSize: '1rem'}}>Connect with professionals from top tech companies and build valuable relationships.</p>
+                      <p style={{margin: 0, fontSize: '1rem'}}>Connect with IT professionals and build valuable relationships in the tech industry.</p>
                     </div>
                   </div>
                   
                   <div style={{display: 'flex', alignItems: 'flex-start', marginBottom: '1.5rem'}}>
                     <div style={{fontSize: '2rem', marginRight: '1rem', minWidth: '60px'}}>🔥</div>
                     <div>
-                      <h4 style={{margin: '0 0 0.5rem 0', color: 'var(--ifm-color-primary)'}}>Exclusive Content</h4>
-                      <p style={{margin: 0, fontSize: '1rem'}}>Access to beta tutorials, live Q&A sessions, and member-only resources.</p>
+                      <h4 style={{margin: '0 0 0.5rem 0', color: 'var(--ifm-color-primary)'}}>Latest Updates</h4>
+                      <p style={{margin: 0, fontSize: '1rem'}}>Stay informed about new tutorials, technology updates, and industry best practices.</p>
                     </div>
                   </div>
                 </div>
@@ -267,14 +304,8 @@ function CommunitySection() {
                 <div className="buttons">
                   <Link
                     className="button button--primary button--lg"
-                    href="https://github.com/Syslogine/syslogine/discussions"
-                    style={{marginRight: '1rem'}}>
+                    href="https://github.com/Syslogine/syslogine/discussions">
                     Join Discussion Forum
-                  </Link>
-                  <Link
-                    className="button button--secondary button--outline button--lg"
-                    href="https://discord.gg/syslogine">
-                    Discord Community
                   </Link>
                 </div>
               </div>
@@ -301,10 +332,10 @@ function CommunitySection() {
                   }} className="shadow-hover">
                     <div style={{display: 'flex', alignItems: 'center', marginBottom: '0.5rem'}}>
                       <span style={{fontSize: '1.5rem', marginRight: '0.75rem'}}>🏢</span>
-                      <strong style={{fontSize: '1.1rem'}}>Enterprise-Grade Quality</strong>
+                      <strong style={{fontSize: '1.1rem'}}>Professional-Grade Quality</strong>
                     </div>
                     <p style={{margin: 0, fontSize: '0.95rem', opacity: '0.95'}}>
-                      Tutorials used by Fortune 500 companies and tested in production environments.
+                      Professional-grade tutorials tested in production environments and real-world scenarios.
                     </p>
                   </div>
                   
@@ -318,10 +349,10 @@ function CommunitySection() {
                   }} className="shadow-hover">
                     <div style={{display: 'flex', alignItems: 'center', marginBottom: '0.5rem'}}>
                       <span style={{fontSize: '1.5rem', marginRight: '0.75rem'}}>⚡</span>
-                      <strong style={{fontSize: '1.1rem'}}>Lightning Fast Updates</strong>
+                      <strong style={{fontSize: '1.1rem'}}>Regular Content Updates</strong>
                     </div>
                     <p style={{margin: 0, fontSize: '0.95rem', opacity: '0.95'}}>
-                      New content weekly, security patches same-day, technology updates within hours.
+                      New tutorials published weekly, with security patches and technology updates added promptly.
                     </p>
                   </div>
                   
@@ -338,7 +369,7 @@ function CommunitySection() {
                       <strong style={{fontSize: '1.1rem'}}>Real-World Focus</strong>
                     </div>
                     <p style={{margin: 0, fontSize: '0.95rem', opacity: '0.95'}}>
-                      Every tutorial solves actual problems faced by working system administrators.
+                      Every tutorial solves actual problems faced by working system administrators daily.
                     </p>
                   </div>
                 </div>
@@ -346,8 +377,6 @@ function CommunitySection() {
             </div>
           </div>
         </div>
-
-
 
         {/* Call to Action */}
         <div className="text--center" style={{marginTop: '3rem'}}>
@@ -361,7 +390,7 @@ function CommunitySection() {
               🚀 Ready to Level Up Your Infrastructure Skills?
             </h3>
             <p style={{fontSize: '1.1rem', marginBottom: '2rem', opacity: '0.95'}}>
-              Join our community today and get access to exclusive content, expert mentorship, and career opportunities.
+              Start learning today with our comprehensive tutorials and join a community of IT professionals.
             </p>
             <div className="buttons">
               <Link
@@ -394,6 +423,7 @@ export default function Home(): ReactNode {
       <main>
         <HomepageFeatures />
         <PopularTutorials />
+        <AboutSection />
         <StatsSection />
         <CommunitySection />
       </main>
